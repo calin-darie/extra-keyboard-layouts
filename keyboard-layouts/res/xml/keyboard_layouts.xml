@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
+    <keyboard-layout android:label="@string/keyboard_layout_romanian_programmers" android:name="keyboard_layout_romanian_programmers" android:keyboardLayout="@raw/keyboard_layout_romanian_programmers" />
+</keyboard-layouts>
