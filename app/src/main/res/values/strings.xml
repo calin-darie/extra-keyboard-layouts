@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Extra keyboard layouts</string>
+    <string name="app_name">Extra Keyboard Layouts</string>
     <string name="keyboard_layout_romanian_programmers">Română (Programatori)</string>
     <string name="keyboard_layouts_label">Extra keyboard layouts</string>
 </resources>
