@@ -1,0 +1,317 @@
+# License: MIT
+
+# Mongolian (Mongolian Script)
+type OVERLAY
+
+key 1 {
+  label: '1'
+  base: '1'
+  shift: '\u0021'
+}
+
+key 2 {
+  label: '2'
+  base: '2'
+  shift: '\u2048'
+}
+
+key 3 {
+  label: '3'
+  base: '3'
+  shift: '\u2049'
+}
+
+key 4 {
+  label: '4'
+  base: '4'
+  shift: '\u2014'
+}
+
+key 5 {
+  label: '5'
+  base: '5'
+  shift: '\u0025'
+}
+
+key 6 {
+  label: '6'
+  base: '6'
+  shift: '\u200c'
+}
+
+key 7 {
+  label: '7'
+  base: '7'
+  shift: '\u180a'
+}
+
+key 8 {
+  label: '8'
+  base: '8'
+  shift: '\u200d'
+}
+
+key 9 {
+  label: '9'
+  base: '9'
+  shift: '\u0028'
+}
+
+key 0 {
+  label: '0'
+  base: '0'
+  shift: '\u0029'
+}
+
+key MINUS {
+  label: '\u202f'
+  base: '\u202f'
+  shift: '\u180e'
+}
+
+key EQUALS {
+  label: '\u003d'
+  base: '\u003d'
+  shift: '\u002b'
+}
+
+key Q {
+  label: '\u1834'
+  base: '\u1834'
+  capslock+shift: '\u1834'
+}
+
+key W {
+  label: '\u1823'
+  base: '\u1823'
+  shift: '\u1838'
+  capslock: '\u1838'
+  capslock+shift: '\u1823'
+}
+
+key E {
+  label: '\u1821'
+  base: '\u1821'
+  shift: '\u1827'
+  capslock: '\u1827'
+  capslock+shift: '\u1821'
+}
+
+key R {
+  label: '\u1837'
+  base: '\u1837'
+  shift: '\u183f'
+  capslock: '\u183f'
+  capslock+shift: '\u1837'
+}
+
+key T {
+  label: '\u1832'
+  base: '\u1832'
+  capslock+shift: '\u1832'
+}
+
+key Y {
+  label: '\u1836'
+  base: '\u1836'
+  capslock+shift: '\u1836'
+}
+
+key U {
+  label: '\u1826'
+  base: '\u1826'
+  capslock+shift: '\u1826'
+}
+
+key I {
+  label: '\u1822'
+  base: '\u1822'
+  capslock+shift: '\u1822'
+}
+
+key O {
+  label: '\u1825'
+  base: '\u1825'
+  capslock+shift: '\u1825'
+}
+
+key P {
+  label: '\u182b'
+  base: '\u182b'
+  capslock+shift: '\u182b'
+}
+
+key LEFT_BRACKET {
+  label: '\u3014'
+  base: '\u3014'
+  shift: '\u3008'
+}
+
+key RIGHT_BRACKET {
+  label: '\u3015'
+  base: '\u3015'
+  shift: '\u3009'
+}
+
+key A {
+  label: '\u1820'
+  base: '\u1820'
+  capslock+shift: '\u1820'
+}
+
+key S {
+  label: '\u1830'
+  base: '\u1830'
+  capslock+shift: '\u1830'
+}
+
+key D {
+  label: '\u1833'
+  base: '\u1833'
+  capslock+shift: '\u1833'
+}
+
+key F {
+  label: '\u1839'
+  base: '\u1839'
+  capslock+shift: '\u1839'
+}
+
+key G {
+  label: '\u182d'
+  base: '\u182d'
+  capslock+shift: '\u182d'
+}
+
+key H {
+  label: '\u182c'
+  base: '\u182c'
+  shift: '\u183e'
+  capslock: '\u183e'
+  capslock+shift: '\u182c'
+}
+
+key J {
+  label: '\u1835'
+  base: '\u1835'
+  capslock+shift: '\u1835'
+}
+
+key K {
+  label: '\u183a'
+  base: '\u183a'
+  shift: '\u183b'
+  capslock: '\u183b'
+  capslock+shift: '\u183a'
+}
+
+key L {
+  label: '\u182f'
+  base: '\u182f'
+  shift: '\u1840'
+  capslock: '\u1840'
+  capslock+shift: '\u182f'
+}
+
+key SEMICOLON {
+  label: '\u003b'
+  base: '\u003b'
+  shift: '\u1804'
+}
+
+key APOSTROPHE {
+  label: '\u180b'
+  base: '\u180b'
+  shift: '\u180c'
+}
+
+key GRAVE {
+  label: '\u180d'
+  base: '\u180d'
+  shift: '\u007e'
+}
+
+key PLUS {
+  label: '\u1801'
+  base: '\u1801'
+  shift: '\u007c'
+}
+
+key Z {
+  label: '\u183d'
+  base: '\u183d'
+  shift: '\u1841'
+  capslock: '\u1841'
+  capslock+shift: '\u183d'
+}
+
+key X {
+  label: '\u1831'
+  base: '\u1831'
+  capslock+shift: '\u1831'
+}
+
+key C {
+  label: '\u183c'
+  base: '\u183c'
+  shift: '\u1842'
+  capslock: '\u1842'
+  capslock+shift: '\u183c'
+}
+
+key V {
+  label: '\u1824'
+  base: '\u1824'
+  capslock+shift: '\u1824'
+}
+
+key B {
+  label: '\u182a'
+  base: '\u182a'
+  capslock+shift: '\u182a'
+}
+
+key N {
+  label: '\u1828'
+  base: '\u1828'
+  shift: '\u1829'
+  capslock: '\u1829'
+  capslock+shift: '\u1828'
+}
+
+key M {
+  label: '\u182e'
+  base: '\u182e'
+  capslock+shift: '\u182e'
+}
+
+key COMMA {
+  label: '\u1802'
+  base: '\u1802'
+  shift: '\u300a'
+}
+
+key PERIOD {
+  label: '\u1803'
+  base: '\u1803'
+  shift: '\u300b'
+}
+
+key SLASH {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u003f'
+}
+
+key SPACE {
+  label: '\u0020'
+  base: '\u0020'
+  shift: '\u0020'
+}
+
+key NUMPAD_COMMA {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u002e'
+}
+

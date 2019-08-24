@@ -1,0 +1,357 @@
+# License: MIT
+
+# United States-Dvorak for right hand
+type OVERLAY
+
+key 1 {
+  label: '1'
+  base: '1'
+  shift: '\u0021'
+}
+
+key 2 {
+  label: '2'
+  base: '2'
+  shift: '\u0040'
+}
+
+key 3 {
+  label: '3'
+  base: '3'
+  shift: '\u0023'
+}
+
+key 4 {
+  label: '4'
+  base: '4'
+  shift: '\u0024'
+}
+
+key J {
+  label: 'j'
+  base: 'j'
+  shift: 'J'
+  capslock: 'J'
+  capslock+shift: 'j'
+}
+
+key L {
+  label: 'l'
+  base: 'l'
+  shift: 'L'
+  capslock: 'L'
+  capslock+shift: 'l'
+}
+
+key M {
+  label: 'm'
+  base: 'm'
+  shift: 'M'
+  capslock: 'M'
+  capslock+shift: 'm'
+}
+
+key F {
+  label: 'f'
+  base: 'f'
+  shift: 'F'
+  capslock: 'F'
+  capslock+shift: 'f'
+}
+
+key P {
+  label: 'p'
+  base: 'p'
+  shift: 'P'
+  capslock: 'P'
+  capslock+shift: 'p'
+}
+
+key SLASH {
+  label: '\u002f'
+  base: '\u002f'
+  shift: '\u003f'
+}
+
+key LEFT_BRACKET {
+  label: '\u005b'
+  base: '\u005b'
+  shift: '\u007b'
+}
+
+key RIGHT_BRACKET {
+  label: '\u005d'
+  base: '\u005d'
+  shift: '\u007d'
+}
+
+key 5 {
+  label: '5'
+  base: '5'
+  shift: '\u0025'
+}
+
+key 6 {
+  label: '6'
+  base: '6'
+  shift: '\u005e'
+}
+
+key Q {
+  label: 'q'
+  base: 'q'
+  shift: 'Q'
+  capslock: 'Q'
+  capslock+shift: 'q'
+}
+
+key PERIOD {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u003e'
+}
+
+key O {
+  label: 'o'
+  base: 'o'
+  shift: 'O'
+  capslock: 'O'
+  capslock+shift: 'o'
+}
+
+key R {
+  label: 'r'
+  base: 'r'
+  shift: 'R'
+  capslock: 'R'
+  capslock+shift: 'r'
+}
+
+key S {
+  label: 's'
+  base: 's'
+  shift: 'S'
+  capslock: 'S'
+  capslock+shift: 's'
+}
+
+key U {
+  label: 'u'
+  base: 'u'
+  shift: 'U'
+  capslock: 'U'
+  capslock+shift: 'u'
+}
+
+key Y {
+  label: 'y'
+  base: 'y'
+  shift: 'Y'
+  capslock: 'Y'
+  capslock+shift: 'y'
+}
+
+key B {
+  label: 'b'
+  base: 'b'
+  shift: 'B'
+  capslock: 'B'
+  capslock+shift: 'b'
+}
+
+key SEMICOLON {
+  label: '\u003b'
+  base: '\u003b'
+  shift: '\u003a'
+}
+
+key EQUALS {
+  label: '\u003d'
+  base: '\u003d'
+  shift: '\u002b'
+}
+
+key 7 {
+  label: '7'
+  base: '7'
+  shift: '\u0026'
+}
+
+key 8 {
+  label: '8'
+  base: '8'
+  shift: '\u002a'
+}
+
+key Z {
+  label: 'z'
+  base: 'z'
+  shift: 'Z'
+  capslock: 'Z'
+  capslock+shift: 'z'
+}
+
+key A {
+  label: 'a'
+  base: 'a'
+  shift: 'A'
+  capslock: 'A'
+  capslock+shift: 'a'
+}
+
+key E {
+  label: 'e'
+  base: 'e'
+  shift: 'E'
+  capslock: 'E'
+  capslock+shift: 'e'
+}
+
+key H {
+  label: 'h'
+  base: 'h'
+  shift: 'H'
+  capslock: 'H'
+  capslock+shift: 'h'
+}
+
+key T {
+  label: 't'
+  base: 't'
+  shift: 'T'
+  capslock: 'T'
+  capslock+shift: 't'
+}
+
+key D {
+  label: 'd'
+  base: 'd'
+  shift: 'D'
+  capslock: 'D'
+  capslock+shift: 'd'
+}
+
+key C {
+  label: 'c'
+  base: 'c'
+  shift: 'C'
+  capslock: 'C'
+  capslock+shift: 'c'
+}
+
+key K {
+  label: 'k'
+  base: 'k'
+  shift: 'K'
+  capslock: 'K'
+  capslock+shift: 'k'
+}
+
+key MINUS {
+  label: '\u002d'
+  base: '\u002d'
+  shift: '\u005f'
+}
+
+key GRAVE {
+  label: '\u0060'
+  base: '\u0060'
+  shift: '\u007e'
+}
+
+key PLUS {
+  label: '\u005c'
+  base: '\u005c'
+  shift: '\u007c'
+}
+
+key 9 {
+  label: '9'
+  base: '9'
+  shift: '\u0028'
+}
+
+key 0 {
+  label: '0'
+  base: '0'
+  shift: '\u0029'
+}
+
+key X {
+  label: 'x'
+  base: 'x'
+  shift: 'X'
+  capslock: 'X'
+  capslock+shift: 'x'
+}
+
+key COMMA {
+  label: '\u002c'
+  base: '\u002c'
+  shift: '\u003c'
+}
+
+key I {
+  label: 'i'
+  base: 'i'
+  shift: 'I'
+  capslock: 'I'
+  capslock+shift: 'i'
+}
+
+key N {
+  label: 'n'
+  base: 'n'
+  shift: 'N'
+  capslock: 'N'
+  capslock+shift: 'n'
+}
+
+key W {
+  label: 'w'
+  base: 'w'
+  shift: 'W'
+  capslock: 'W'
+  capslock+shift: 'w'
+}
+
+key V {
+  label: 'v'
+  base: 'v'
+  shift: 'V'
+  capslock: 'V'
+  capslock+shift: 'v'
+}
+
+key G {
+  label: 'g'
+  base: 'g'
+  shift: 'G'
+  capslock: 'G'
+  capslock+shift: 'g'
+}
+
+key APOSTROPHE {
+  label: '\u0027'
+  base: '\u0027'
+  shift: '\u0022'
+}
+
+key SPACE {
+  label: '\u0020'
+  base: '\u0020'
+  shift: '\u0020'
+}
+
+key BACKSLASH {
+  label: '\u005c'
+  base: '\u005c'
+  shift: '\u007c'
+}
+
+key NUMPAD_COMMA {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u002e'
+}
+
