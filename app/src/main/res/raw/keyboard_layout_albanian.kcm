@@ -3,6 +3,10 @@
 # Albanian
 type OVERLAY
 
+map key 43 PLUS
+map key 21 Z
+map key 44 Y
+
 key 1 {
   label: '1'
   base: '1'
