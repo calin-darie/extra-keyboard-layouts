@@ -3,6 +3,57 @@
 # Thai Kedmanee
 type OVERLAY
 
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 16 Q
+map key 17 W
+map key 18 E
+map key 19 R
+map key 20 T
+map key 21 Y
+map key 22 U
+map key 23 I
+map key 24 O
+map key 25 P
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 A
+map key 31 S
+map key 32 D
+map key 33 F
+map key 34 G
+map key 35 H
+map key 36 J
+map key 37 K
+map key 38 L
+map key 39 SEMICOLON
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 Z
+map key 45 X
+map key 46 C
+map key 47 V
+map key 48 B
+map key 49 N
+map key 50 M
+map key 51 COMMA
+map key 52 PERIOD
+map key 53 SLASH
+map key 57 SPACE
+map key 86 PLUS
+map key 95 NUMPAD_COMMA
+
 key 1 {
   label: '\u0e45'
   base: '\u0e45'
@@ -273,7 +324,7 @@ key GRAVE {
   shift: '\u0025'
 }
 
-key PLUS {
+key BACKSLASH {
   label: '\u0e03'
   base: '\u0e03'
   shift: '\u0e05'
@@ -363,7 +414,7 @@ key SPACE {
   shift: '\u0020'
 }
 
-key BACKSLASH {
+key PLUS {
   label: '\u0e03'
   base: '\u0e03'
   shift: '\u0e05'

@@ -3,6 +3,57 @@
 # Czech (QWERTY)
 type OVERLAY
 
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 16 Q
+map key 17 W
+map key 18 E
+map key 19 R
+map key 20 T
+map key 21 Y
+map key 22 U
+map key 23 I
+map key 24 O
+map key 25 P
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 A
+map key 31 S
+map key 32 D
+map key 33 F
+map key 34 G
+map key 35 H
+map key 36 J
+map key 37 K
+map key 38 L
+map key 39 SEMICOLON
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 Z
+map key 45 X
+map key 46 C
+map key 47 V
+map key 48 B
+map key 49 N
+map key 50 M
+map key 51 COMMA
+map key 52 PERIOD
+map key 53 SLASH
+map key 57 SPACE
+map key 86 PLUS
+map key 95 NUMPAD_COMMA
+
 key 1 {
   label: '\u002b'
   base: '\u002b'
@@ -20,14 +71,6 @@ key 2 {
   ralt+capslock+shift: '\u0040'
 }
 
-key -1 {
-  label: '\u011a'
-  base: '\u011a'
-  shift: '// LATIN CAPITAL LETTER E WITH CARON'
-  capslock: '// LATIN CAPITAL LETTER E WITH CARON'
-  capslock+shift: '\u011a'
-}
-
 key 3 {
   label: '\u0161'
   base: '\u0161'
@@ -36,14 +79,6 @@ key 3 {
   capslock+shift: '\u0161'
   ralt: '\u0023'
   ralt+capslock+shift: '\u0023'
-}
-
-key -1 {
-  label: '\u0160'
-  base: '\u0160'
-  shift: '// LATIN CAPITAL LETTER S WITH CARON'
-  capslock: '// LATIN CAPITAL LETTER S WITH CARON'
-  capslock+shift: '\u0160'
 }
 
 key 4 {
@@ -56,14 +91,6 @@ key 4 {
   ralt+capslock+shift: '\u0024'
 }
 
-key -1 {
-  label: '\u010c'
-  base: '\u010c'
-  shift: '// LATIN CAPITAL LETTER C WITH CARON'
-  capslock: '// LATIN CAPITAL LETTER C WITH CARON'
-  capslock+shift: '\u010c'
-}
-
 key 5 {
   label: '\u0159'
   base: '\u0159'
@@ -72,14 +99,6 @@ key 5 {
   capslock+shift: '\u0159'
   ralt: '\u0025'
   ralt+capslock+shift: '\u0025'
-}
-
-key -1 {
-  label: '\u0158'
-  base: '\u0158'
-  shift: '// LATIN CAPITAL LETTER R WITH CARON'
-  capslock: '// LATIN CAPITAL LETTER R WITH CARON'
-  capslock+shift: '\u0158'
 }
 
 key 6 {
@@ -92,14 +111,6 @@ key 6 {
   ralt+capslock+shift: '\u005e'
 }
 
-key -1 {
-  label: '\u017d'
-  base: '\u017d'
-  shift: '// LATIN CAPITAL LETTER Z WITH CARON'
-  capslock: '// LATIN CAPITAL LETTER Z WITH CARON'
-  capslock+shift: '\u017d'
-}
-
 key 7 {
   label: '\u00fd'
   base: '\u00fd'
@@ -108,14 +119,6 @@ key 7 {
   capslock+shift: '\u00fd'
   ralt: '\u0026'
   ralt+capslock+shift: '\u0026'
-}
-
-key -1 {
-  label: '\u00dd'
-  base: '\u00dd'
-  shift: '// LATIN CAPITAL LETTER Y WITH ACUTE'
-  capslock: '// LATIN CAPITAL LETTER Y WITH ACUTE'
-  capslock+shift: '\u00dd'
 }
 
 key 8 {
@@ -128,14 +131,6 @@ key 8 {
   ralt+capslock+shift: '\u002a'
 }
 
-key -1 {
-  label: '\u00c1'
-  base: '\u00c1'
-  shift: '// LATIN CAPITAL LETTER A WITH ACUTE'
-  capslock: '// LATIN CAPITAL LETTER A WITH ACUTE'
-  capslock+shift: '\u00c1'
-}
-
 key 9 {
   label: '\u00ed'
   base: '\u00ed'
@@ -146,14 +141,6 @@ key 9 {
   ralt+capslock+shift: '\u0028'
 }
 
-key -1 {
-  label: '\u00cd'
-  base: '\u00cd'
-  shift: '// LATIN CAPITAL LETTER I WITH ACUTE'
-  capslock: '// LATIN CAPITAL LETTER I WITH ACUTE'
-  capslock+shift: '\u00cd'
-}
-
 key 0 {
   label: '\u00e9'
   base: '\u00e9'
@@ -162,14 +149,6 @@ key 0 {
   capslock+shift: '\u00e9'
   ralt: '\u0029'
   ralt+capslock+shift: '\u0029'
-}
-
-key -1 {
-  label: '\u00c9'
-  base: '\u00c9'
-  shift: '// LATIN CAPITAL LETTER E WITH ACUTE'
-  capslock: '// LATIN CAPITAL LETTER E WITH ACUTE'
-  capslock+shift: '\u00c9'
 }
 
 key MINUS {
@@ -282,14 +261,6 @@ key LEFT_BRACKET {
   ralt+capslock+shift: '\u005b'
 }
 
-key -1 {
-  label: '\u00da'
-  base: '\u00da'
-  shift: '// LATIN CAPITAL LETTER U WITH ACUTE'
-  capslock: '// LATIN CAPITAL LETTER U WITH ACUTE'
-  capslock+shift: '\u00da'
-}
-
 key RIGHT_BRACKET {
   label: '\u0029'
   base: '\u0029'
@@ -382,14 +353,6 @@ key SEMICOLON {
   ralt+capslock+shift: '\u003b'
 }
 
-key -1 {
-  label: '\u016e'
-  base: '\u016e'
-  shift: '// LATIN CAPITAL LETTER U WITH RING ABOVE'
-  capslock: '// LATIN CAPITAL LETTER U WITH RING ABOVE'
-  capslock+shift: '\u016e'
-}
-
 key APOSTROPHE {
   label: '\u00a7'
   base: '\u00a7'
@@ -406,7 +369,7 @@ key GRAVE {
   ralt+shift: '\u007e'
 }
 
-key PLUS {
+key BACKSLASH {
   label: '\u0308'
   base: '\u0308'
   shift: '\u0027'
@@ -500,7 +463,7 @@ key SPACE {
   shift: '\u0020'
 }
 
-key BACKSLASH {
+key PLUS {
   label: '\u005c'
   base: '\u005c'
   shift: '\u007c'

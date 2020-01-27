@@ -3,6 +3,57 @@
 # Turkish F
 type OVERLAY
 
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 EQUALS
+map key 13 MINUS
+map key 16 F
+map key 17 G
+map key 18 SEMICOLON
+map key 19 I
+map key 20 O
+map key 21 D
+map key 22 R
+map key 23 N
+map key 24 H
+map key 25 P
+map key 26 Q
+map key 27 W
+map key 30 U
+map key 31 LEFT_BRACKET
+map key 32 E
+map key 33 A
+map key 34 RIGHT_BRACKET
+map key 35 T
+map key 36 K
+map key 37 M
+map key 38 L
+map key 39 Y
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 X
+map key 44 J
+map key 45 BACKSLASH
+map key 46 V
+map key 47 C
+map key 48 SLASH
+map key 49 Z
+map key 50 S
+map key 51 B
+map key 52 PERIOD
+map key 53 COMMA
+map key 57 SPACE
+map key 86 PLUS
+map key 95 NUMPAD_COMMA
+
 key 1 {
   label: '1'
   base: '1'
@@ -338,7 +389,7 @@ key J {
   ralt+capslock+shift: '\u00ab'
 }
 
-key PLUS {
+key BACKSLASH {
   label: '\u00f6'
   base: '\u00f6'
   shift: '\u00d6'
@@ -428,7 +479,7 @@ key SPACE {
   shift: '\u0020'
 }
 
-key BACKSLASH {
+key PLUS {
   label: '\u003c'
   base: '\u003c'
   shift: '\u003e'

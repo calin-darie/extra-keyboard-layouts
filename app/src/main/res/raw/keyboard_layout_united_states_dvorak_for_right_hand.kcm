@@ -3,6 +3,57 @@
 # United States-Dvorak for right hand
 type OVERLAY
 
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 J
+map key 7 L
+map key 8 M
+map key 9 F
+map key 10 P
+map key 11 SLASH
+map key 12 LEFT_BRACKET
+map key 13 RIGHT_BRACKET
+map key 16 5
+map key 17 6
+map key 18 Q
+map key 19 PERIOD
+map key 20 O
+map key 21 R
+map key 22 S
+map key 23 U
+map key 24 Y
+map key 25 B
+map key 26 SEMICOLON
+map key 27 EQUALS
+map key 30 7
+map key 31 8
+map key 32 Z
+map key 33 A
+map key 34 E
+map key 35 H
+map key 36 T
+map key 37 D
+map key 38 C
+map key 39 K
+map key 40 MINUS
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 9
+map key 45 0
+map key 46 X
+map key 47 COMMA
+map key 48 I
+map key 49 N
+map key 50 W
+map key 51 V
+map key 52 G
+map key 53 APOSTROPHE
+map key 57 SPACE
+map key 86 PLUS
+map key 95 NUMPAD_COMMA
+
 key 1 {
   label: '1'
   base: '1'
@@ -259,7 +310,7 @@ key GRAVE {
   shift: '\u007e'
 }
 
-key PLUS {
+key BACKSLASH {
   label: '\u005c'
   base: '\u005c'
   shift: '\u007c'
@@ -343,7 +394,7 @@ key SPACE {
   shift: '\u0020'
 }
 
-key BACKSLASH {
+key PLUS {
   label: '\u005c'
   base: '\u005c'
   shift: '\u007c'
