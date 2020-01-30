@@ -77,7 +77,6 @@ key 4 {
   base: '4'
   shift: '\u0024'
   ralt: '\u20b9'
-  ralt+shift: '\u20b9'
 }
 
 key 5 {
