@@ -335,6 +335,11 @@ key BACKSLASH {
   ralt+shift: '\u007c'
 }
 
+key Z {
+  base: none
+  shift: none
+}
+
 key X {
   label: '\u0902'
   base: '\u0902'
@@ -353,12 +358,14 @@ key C {
 key V {
   label: '\u0928'
   base: '\u0928'
+  shift: none
   capslock+shift: '\u0928'
 }
 
 key B {
   label: '\u0935'
   base: '\u0935'
+  shift: none
   capslock+shift: '\u0935'
 }
 
