@@ -11,3 +11,9 @@
 /build
 /captures
 .externalNativeBuild
+
+
+app/release/
+*.jks
+*.keystore
+*.pepk
