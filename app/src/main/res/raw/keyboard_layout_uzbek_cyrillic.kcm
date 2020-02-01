@@ -58,60 +58,70 @@ key 1 {
   label: '1'
   base: '1'
   shift: '\u0021'
+  capslock+shift: '\u0021'
 }
 
 key 2 {
   label: '2'
   base: '2'
   shift: '\u0022'
+  capslock+shift: '\u0022'
 }
 
 key 3 {
   label: '3'
   base: '3'
   shift: '\u2116'
+  capslock+shift: '\u2116'
 }
 
 key 4 {
   label: '4'
   base: '4'
   shift: '\u003b'
+  capslock+shift: '\u003b'
 }
 
 key 5 {
   label: '5'
   base: '5'
   shift: '\u0025'
+  capslock+shift: '\u0025'
 }
 
 key 6 {
   label: '6'
   base: '6'
   shift: '\u003a'
+  capslock+shift: '\u003a'
 }
 
 key 7 {
   label: '7'
   base: '7'
   shift: '\u003f'
+  capslock+shift: '\u003f'
 }
 
 key 8 {
   label: '8'
   base: '8'
   shift: '\u002a'
+  capslock+shift: '\u002a'
 }
 
 key 9 {
   label: '9'
   base: '9'
   shift: '\u0028'
+  capslock+shift: '\u0028'
 }
 
 key 0 {
   label: '0'
   base: '0'
   shift: '\u0029'
+  capslock+shift: '\u0029'
 }
 
 key MINUS {
@@ -326,6 +336,7 @@ key BACKSLASH {
   label: '\u005c'
   base: '\u005c'
   shift: '\u002f'
+  capslock+shift: '\u002f'
 }
 
 key Z {
@@ -404,23 +415,27 @@ key SLASH {
   label: '\u002e'
   base: '\u002e'
   shift: '\u002c'
+  capslock+shift: '\u002c'
 }
 
 key SPACE {
   label: '\u0020'
   base: '\u0020'
   shift: '\u0020'
+  capslock+shift: '\u0020'
 }
 
 key PLUS {
   label: '\u005c'
   base: '\u005c'
   shift: '\u002f'
+  capslock+shift: '\u002f'
 }
 
 key NUMPAD_COMMA {
   label: '\u002e'
   base: '\u002e'
   shift: '\u002e'
+  capslock+shift: '\u002e'
 }
 

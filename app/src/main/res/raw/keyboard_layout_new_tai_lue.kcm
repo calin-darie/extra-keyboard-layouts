@@ -57,79 +57,91 @@ key 1 {
   label: '\uff01'
   base: '\uff01'
   shift: '\u19d1'
+  capslock+shift: '\u19d1'
 }
 
 key 2 {
   label: '\uff20'
   base: '\uff20'
   shift: '\u19d2'
+  capslock+shift: '\u19d2'
 }
 
 key 3 {
   label: '\uff03'
   base: '\uff03'
   shift: '\u19d3'
+  capslock+shift: '\u19d3'
 }
 
 key 4 {
   label: '\uff04'
   base: '\uff04'
   shift: '\u19d4'
+  capslock+shift: '\u19d4'
 }
 
 key 5 {
   label: '\uff05'
   base: '\uff05'
   shift: '\u19d5'
+  capslock+shift: '\u19d5'
 }
 
 key 6 {
   label: '\u2026'
   base: '\u2026'
   shift: '\u19d6'
+  capslock+shift: '\u19d6'
 }
 
 key 7 {
   label: '\uff06'
   base: '\uff06'
   shift: '\u19d7'
+  capslock+shift: '\u19d7'
 }
 
 key 8 {
   label: '\u002a'
   base: '\u002a'
   shift: '\u19d8'
+  capslock+shift: '\u19d8'
 }
 
 key 9 {
   label: '\uff08'
   base: '\uff08'
   shift: '\u19d9'
+  capslock+shift: '\u19d9'
 }
 
 key 0 {
   label: '\uff09'
   base: '\uff09'
   shift: '\u19d0'
+  capslock+shift: '\u19d0'
 }
 
 key MINUS {
   label: '\u2014'
   base: '\u2014'
   shift: '\u002d'
+  capslock+shift: '\u002d'
 }
 
 key EQUALS {
   label: '\u002b'
   base: '\u002b'
   shift: '\u003d'
+  capslock+shift: '\u003d'
 }
 
 key Q {
   label: '\u1980'
   base: '\u1980'
   shift: '\u1981'
-  capslock: '\u1981'
+  capslock: '\u1980'
   capslock+shift: '\u1980'
 }
 
@@ -137,7 +149,7 @@ key W {
   label: '\u19c8'
   base: '\u19c8'
   shift: '\u19c9'
-  capslock: '\u19c9'
+  capslock: '\u19c8'
   capslock+shift: '\u19c8'
 }
 
@@ -145,9 +157,10 @@ key E {
   label: '\u19b5'
   base: '\u19b5'
   shift: '\u19b6'
-  capslock: '\u19b6'
+  capslock: '\u19b5'
   capslock+shift: '\u19b5'
   ralt: '\u19b9'
+  ralt+capslock: '\u19b9'
   ralt+capslock+shift: '\u19b9'
 }
 
@@ -155,9 +168,10 @@ key R {
   label: '\u198f'
   base: '\u198f'
   shift: '\u1992'
-  capslock: '\u1992'
+  capslock: '\u198f'
   capslock+shift: '\u198f'
   ralt: '\u19be'
+  ralt+capslock: '\u19be'
   ralt+capslock+shift: '\u19be'
 }
 
@@ -165,7 +179,7 @@ key T {
   label: '\u198e'
   base: '\u198e'
   shift: '\u1991'
-  capslock: '\u1991'
+  capslock: '\u198e'
   capslock+shift: '\u198e'
 }
 
@@ -173,9 +187,10 @@ key Y {
   label: '\u198a'
   base: '\u198a'
   shift: '\u198d'
-  capslock: '\u198d'
+  capslock: '\u198a'
   capslock+shift: '\u198a'
   ralt: '\u19bb'
+  ralt+capslock: '\u19bb'
   ralt+capslock+shift: '\u19bb'
 }
 
@@ -183,9 +198,10 @@ key U {
   label: '\u19b3'
   base: '\u19b3'
   shift: '\u19b4'
-  capslock: '\u19b4'
+  capslock: '\u19b3'
   capslock+shift: '\u19b3'
   ralt: '\u19bc'
+  ralt+capslock: '\u19bc'
   ralt+capslock+shift: '\u19bc'
 }
 
@@ -193,9 +209,10 @@ key I {
   label: '\u19b2'
   base: '\u19b2'
   shift: '\u19c0'
-  capslock: '\u19c0'
+  capslock: '\u19b2'
   capslock+shift: '\u19b2'
   ralt: '\u19bf'
+  ralt+capslock: '\u19bf'
   ralt+capslock+shift: '\u19bf'
 }
 
@@ -203,9 +220,10 @@ key O {
   label: '\u19b7'
   base: '\u19b7'
   shift: '\u19b8'
-  capslock: '\u19b8'
+  capslock: '\u19b7'
   capslock+shift: '\u19b7'
   ralt: '\u19bd'
+  ralt+capslock: '\u19bd'
   ralt+capslock+shift: '\u19bd'
 }
 
@@ -213,7 +231,7 @@ key P {
   label: '\u1994'
   base: '\u1994'
   shift: '\u1997'
-  capslock: '\u1997'
+  capslock: '\u1994'
   capslock+shift: '\u1994'
 }
 
@@ -221,21 +239,24 @@ key LEFT_BRACKET {
   label: '\u005b'
   base: '\u005b'
   shift: '\u007b'
+  capslock+shift: '\u007b'
 }
 
 key RIGHT_BRACKET {
   label: '\u005d'
   base: '\u005d'
   shift: '\u007d'
+  capslock+shift: '\u007d'
 }
 
 key A {
   label: '\u19b0'
   base: '\u19b0'
   shift: '\u19b1'
-  capslock: '\u19b1'
+  capslock: '\u19b0'
   capslock+shift: '\u19b0'
   ralt: '\u19ab'
+  ralt+capslock: '\u19ab'
   ralt+capslock+shift: '\u19ab'
 }
 
@@ -243,9 +264,10 @@ key S {
   label: '\u1989'
   base: '\u1989'
   shift: '\u198c'
-  capslock: '\u198c'
+  capslock: '\u1989'
   capslock+shift: '\u1989'
   ralt: '\u19aa'
+  ralt+capslock: '\u19aa'
   ralt+capslock+shift: '\u19aa'
 }
 
@@ -253,9 +275,10 @@ key D {
   label: '\u19a1'
   base: '\u19a1'
   shift: '\u19a4'
-  capslock: '\u19a4'
+  capslock: '\u19a1'
   capslock+shift: '\u19a1'
   ralt: '\u19c6'
+  ralt+capslock: '\u19c6'
   ralt+capslock+shift: '\u19c6'
 }
 
@@ -263,7 +286,7 @@ key F {
   label: '\u199a'
   base: '\u199a'
   shift: '\u199d'
-  capslock: '\u199d'
+  capslock: '\u199a'
   capslock+shift: '\u199a'
 }
 
@@ -271,9 +294,10 @@ key G {
   label: '\u1984'
   base: '\u1984'
   shift: '\u1987'
-  capslock: '\u1987'
+  capslock: '\u1984'
   capslock+shift: '\u1984'
   ralt: '\u19c2'
+  ralt+capslock: '\u19c2'
   ralt+capslock+shift: '\u19c2'
 }
 
@@ -281,9 +305,10 @@ key H {
   label: '\u19a0'
   base: '\u19a0'
   shift: '\u19a3'
-  capslock: '\u19a3'
+  capslock: '\u19a0'
   capslock+shift: '\u19a0'
   ralt: '\u19a6'
+  ralt+capslock: '\u19a6'
   ralt+capslock+shift: '\u19a6'
 }
 
@@ -291,9 +316,10 @@ key J {
   label: '\u1995'
   base: '\u1995'
   shift: '\u1998'
-  capslock: '\u1998'
+  capslock: '\u1995'
   capslock+shift: '\u1995'
   ralt: '\u19a8'
+  ralt+capslock: '\u19a8'
   ralt+capslock+shift: '\u19a8'
 }
 
@@ -301,9 +327,10 @@ key K {
   label: '\u1982'
   base: '\u1982'
   shift: '\u1985'
-  capslock: '\u1985'
+  capslock: '\u1982'
   capslock+shift: '\u1982'
   ralt: '\u19c5'
+  ralt+capslock: '\u19c5'
   ralt+capslock+shift: '\u19c5'
 }
 
@@ -311,9 +338,10 @@ key L {
   label: '\u199c'
   base: '\u199c'
   shift: '\u199f'
-  capslock: '\u199f'
+  capslock: '\u199c'
   capslock+shift: '\u199c'
   ralt: '\u19ba'
+  ralt+capslock: '\u19ba'
   ralt+capslock+shift: '\u19ba'
 }
 
@@ -321,33 +349,38 @@ key SEMICOLON {
   label: '\uff1b'
   base: '\uff1b'
   shift: '\uff1a'
+  capslock+shift: '\uff1a'
 }
 
 key GRAVE {
   label: '\uff5e'
   base: '\uff5e'
   shift: '\u19da'
+  capslock+shift: '\u19da'
 }
 
 key BACKSLASH {
   label: '\u3001'
   base: '\u3001'
   shift: '\u007c'
+  capslock+shift: '\u007c'
 }
 
 key Z {
   label: '\u19de'
   base: '\u19de'
   shift: '\u19df'
+  capslock+shift: '\u19df'
 }
 
 key X {
   label: '\u1983'
   base: '\u1983'
   shift: '\u1986'
-  capslock: '\u1986'
+  capslock: '\u1983'
   capslock+shift: '\u1983'
   ralt: '\u19a7'
+  ralt+capslock: '\u19a7'
   ralt+capslock+shift: '\u19a7'
 }
 
@@ -355,9 +388,10 @@ key C {
   label: '\u1988'
   base: '\u1988'
   shift: '\u198b'
-  capslock: '\u198b'
+  capslock: '\u1988'
   capslock+shift: '\u1988'
   ralt: '\u19a9'
+  ralt+capslock: '\u19a9'
   ralt+capslock+shift: '\u19a9'
 }
 
@@ -365,9 +399,10 @@ key V {
   label: '\u199b'
   base: '\u199b'
   shift: '\u199e'
-  capslock: '\u199e'
+  capslock: '\u199b'
   capslock+shift: '\u199b'
   ralt: '\u19c1'
+  ralt+capslock: '\u19c1'
   ralt+capslock+shift: '\u19c1'
 }
 
@@ -375,9 +410,10 @@ key B {
   label: '\u19a2'
   base: '\u19a2'
   shift: '\u19a5'
-  capslock: '\u19a5'
+  capslock: '\u19a2'
   capslock+shift: '\u19a2'
   ralt: '\u19c7'
+  ralt+capslock: '\u19c7'
   ralt+capslock+shift: '\u19c7'
 }
 
@@ -385,9 +421,10 @@ key N {
   label: '\u1990'
   base: '\u1990'
   shift: '\u1993'
-  capslock: '\u1993'
+  capslock: '\u1990'
   capslock+shift: '\u1990'
   ralt: '\u19c3'
+  ralt+capslock: '\u19c3'
   ralt+capslock+shift: '\u19c3'
 }
 
@@ -395,9 +432,10 @@ key M {
   label: '\u1996'
   base: '\u1996'
   shift: '\u1999'
-  capslock: '\u1999'
+  capslock: '\u1996'
   capslock+shift: '\u1996'
   ralt: '\u19c4'
+  ralt+capslock: '\u19c4'
   ralt+capslock+shift: '\u19c4'
 }
 
@@ -405,35 +443,41 @@ key COMMA {
   label: '\uff0c'
   base: '\uff0c'
   shift: '\u300a'
+  capslock+shift: '\u300a'
 }
 
 key PERIOD {
   label: '\u3002'
   base: '\u3002'
   shift: '\u300b'
+  capslock+shift: '\u300b'
 }
 
 key SLASH {
   label: '\u002f'
   base: '\u002f'
   shift: '\uff1f'
+  capslock+shift: '\uff1f'
 }
 
 key SPACE {
   label: '\u0020'
   base: '\u0020'
   shift: '\u0020'
+  capslock+shift: '\u0020'
 }
 
 key PLUS {
   label: '\u005C'
   base: '\u005C'
   shift: '\u007c'
+  capslock+shift: '\u007c'
 }
 
 key NUMPAD_COMMA {
   label: '\u002e'
   base: '\u002e'
   shift: '\u002e'
+  capslock+shift: '\u002e'
 }
 

@@ -57,6 +57,7 @@ key 1 {
   label: '\u0021'
   base: '\u0021'
   shift: '\u0022'
+  capslock+shift: '\u0022'
 }
 
 key 2 {
@@ -95,6 +96,7 @@ key 6 {
   label: '\u003a'
   base: '\u003a'
   shift: '\u003b'
+  capslock+shift: '\u003b'
 }
 
 key 7 {
@@ -117,18 +119,21 @@ key 9 {
   label: '\u003f'
   base: '\u003f'
   shift: '\u0028'
+  capslock+shift: '\u0028'
 }
 
 key 0 {
   label: '\u2116'
   base: '\u2116'
   shift: '\u0029'
+  capslock+shift: '\u0029'
 }
 
 key MINUS {
   label: '\u002d'
   base: '\u002d'
   shift: '\u0025'
+  capslock+shift: '\u0025'
 }
 
 key EQUALS {
@@ -415,17 +420,20 @@ key SLASH {
   label: '\u002e'
   base: '\u002e'
   shift: '\u002c'
+  capslock+shift: '\u002c'
 }
 
 key SPACE {
   label: '\u0020'
   base: '\u0020'
   shift: '\u0020'
+  capslock+shift: '\u0020'
 }
 
 key NUMPAD_COMMA {
   label: '\u002e'
   base: '\u002e'
   shift: '\u002e'
+  capslock+shift: '\u002e'
 }
 

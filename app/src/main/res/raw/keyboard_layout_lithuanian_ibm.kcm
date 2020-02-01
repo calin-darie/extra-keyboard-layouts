@@ -58,42 +58,49 @@ key 1 {
   label: '\u0021'
   base: '\u0021'
   shift: '1'
+  capslock+shift: '1'
 }
 
 key 2 {
   label: '\u0022'
   base: '\u0022'
   shift: '2'
+  capslock+shift: '2'
 }
 
 key 3 {
   label: '\u002f'
   base: '\u002f'
   shift: '3'
+  capslock+shift: '3'
 }
 
 key 4 {
   label: '\u003b'
   base: '\u003b'
   shift: '4'
+  capslock+shift: '4'
 }
 
 key 5 {
   label: '\u003a'
   base: '\u003a'
   shift: '5'
+  capslock+shift: '5'
 }
 
 key 6 {
   label: '\u002c'
   base: '\u002c'
   shift: '6'
+  capslock+shift: '6'
 }
 
 key 7 {
   label: '\u002e'
   base: '\u002e'
   shift: '7'
+  capslock+shift: '7'
   ralt: '\u007b'
 }
 
@@ -101,6 +108,7 @@ key 8 {
   label: '\u003f'
   base: '\u003f'
   shift: '8'
+  capslock+shift: '8'
   ralt: '\u005b'
 }
 
@@ -108,6 +116,7 @@ key 9 {
   label: '\u0028'
   base: '\u0028'
   shift: '9'
+  capslock+shift: '9'
   ralt: '\u005d'
 }
 
@@ -115,6 +124,7 @@ key 0 {
   label: '\u0029'
   base: '\u0029'
   shift: '0'
+  capslock+shift: '0'
   ralt: '\u007d'
 }
 
@@ -122,12 +132,14 @@ key MINUS {
   label: '\u005f'
   base: '\u005f'
   shift: '\u002d'
+  capslock+shift: '\u002d'
 }
 
 key EQUALS {
   label: '\u002b'
   base: '\u002b'
   shift: '\u003d'
+  capslock+shift: '\u003d'
 }
 
 key Q {
@@ -153,7 +165,6 @@ key E {
   capslock: 'E'
   capslock+shift: 'e'
   ralt: '\u20ac'
-  ralt+capslock+shift: '\u20ac'
 }
 
 key R {
@@ -224,6 +235,7 @@ key RIGHT_BRACKET {
   label: '\u201c'
   base: '\u201c'
   shift: '\u201d'
+  capslock+shift: '\u201d'
 }
 
 key A {
@@ -318,12 +330,14 @@ key GRAVE {
   label: '\u0060'
   base: '\u0060'
   shift: '\u007e'
+  capslock+shift: '\u007e'
 }
 
 key BACKSLASH {
   label: '\u007c'
   base: '\u007c'
   shift: '\u005c'
+  capslock+shift: '\u005c'
 }
 
 key Z {
@@ -410,17 +424,20 @@ key SPACE {
   label: '\u0020'
   base: '\u0020'
   shift: '\u0020'
+  capslock+shift: '\u0020'
 }
 
 key PLUS {
   label: '\u005c'
   base: '\u005c'
   shift: '\u007c'
+  capslock+shift: '\u007c'
 }
 
 key NUMPAD_COMMA {
   label: '\u002c'
   base: '\u002c'
   shift: '\u002c'
+  capslock+shift: '\u002c'
 }
 
