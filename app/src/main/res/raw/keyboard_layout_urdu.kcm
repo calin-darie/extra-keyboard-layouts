@@ -143,7 +143,7 @@ key Q {
   base: '\u0637'
   shift: '\u0638'
   capslock: '\u0637'
-  capslock+shift: '\u0637'
+  capslock+shift: '\u0638'
 }
 
 key W {
@@ -151,7 +151,7 @@ key W {
   base: '\u0635'
   shift: '\u0636'
   capslock: '\u0635'
-  capslock+shift: '\u0635'
+  capslock+shift: '\u0636'
 }
 
 key E {
@@ -159,7 +159,7 @@ key E {
   base: '\u06be'
   shift: '\u0630'
   capslock: '\u06be'
-  capslock+shift: '\u06be'
+  capslock+shift: '\u0630'
 }
 
 key R {
@@ -167,7 +167,7 @@ key R {
   base: '\u062f'
   shift: '\u0688'
   capslock: '\u062f'
-  capslock+shift: '\u062f'
+  capslock+shift: '\u0688'
 }
 
 key T {
@@ -175,7 +175,7 @@ key T {
   base: '\u0679'
   shift: '\u062b'
   capslock: '\u0679'
-  capslock+shift: '\u0679'
+  capslock+shift: '\u062b'
 }
 
 key Y {
@@ -183,7 +183,7 @@ key Y {
   base: '\u067e'
   shift: '\u0651'
   capslock: '\u067e'
-  capslock+shift: '\u067e'
+  capslock+shift: '\u0651'
 }
 
 key U {
@@ -191,7 +191,7 @@ key U {
   base: '\u062a'
   shift: '\u06c3'
   capslock: '\u062a'
-  capslock+shift: '\u062a'
+  capslock+shift: '\u06c3'
 }
 
 key I {
@@ -199,7 +199,7 @@ key I {
   base: '\u0628'
   shift: '\u0640'
   capslock: '\u0628'
-  capslock+shift: '\u0628'
+  capslock+shift: '\u0640'
 }
 
 key O {
@@ -207,7 +207,7 @@ key O {
   base: '\u062c'
   shift: '\u0686'
   capslock: '\u062c'
-  capslock+shift: '\u062c'
+  capslock+shift: '\u0686'
 }
 
 key P {
@@ -215,7 +215,7 @@ key P {
   base: '\u062d'
   shift: '\u062e'
   capslock: '\u062d'
-  capslock+shift: '\u062d'
+  capslock+shift: '\u062e'
 }
 
 key LEFT_BRACKET {
@@ -237,7 +237,7 @@ key A {
   base: '\u0645'
   shift: '\u0698'
   capslock: '\u0645'
-  capslock+shift: '\u0645'
+  capslock+shift: '\u0698'
 }
 
 key S {
@@ -245,7 +245,7 @@ key S {
   base: '\u0648'
   shift: '\u0632'
   capslock: '\u0648'
-  capslock+shift: '\u0648'
+  capslock+shift: '\u0632'
 }
 
 key D {
@@ -253,7 +253,7 @@ key D {
   base: '\u0631'
   shift: '\u0691'
   capslock: '\u0631'
-  capslock+shift: '\u0631'
+  capslock+shift: '\u0691'
 }
 
 key F {
@@ -261,7 +261,7 @@ key F {
   base: '\u0646'
   shift: '\u06ba'
   capslock: '\u0646'
-  capslock+shift: '\u0646'
+  capslock+shift: '\u06ba'
 }
 
 key G {
@@ -269,7 +269,7 @@ key G {
   base: '\u0644'
   shift: '\u06c2'
   capslock: '\u0644'
-  capslock+shift: '\u0644'
+  capslock+shift: '\u06c2'
 }
 
 key H {
@@ -277,7 +277,7 @@ key H {
   base: '\u06c1'
   shift: '\u0621'
   capslock: '\u06c1'
-  capslock+shift: '\u06c1'
+  capslock+shift: '\u0621'
 }
 
 key J {
@@ -285,7 +285,7 @@ key J {
   base: '\u0627'
   shift: '\u0622'
   capslock: '\u0627'
-  capslock+shift: '\u0627'
+  capslock+shift: '\u0622'
 }
 
 key K {
@@ -293,7 +293,7 @@ key K {
   base: '\u06a9'
   shift: '\u06af'
   capslock: '\u06a9'
-  capslock+shift: '\u06a9'
+  capslock+shift: '\u06af'
 }
 
 key L {
@@ -301,7 +301,7 @@ key L {
   base: '\u06cc'
   shift: '\u064a'
   capslock: '\u06cc'
-  capslock+shift: '\u06cc'
+  capslock+shift: '\u064a'
 }
 
 key SEMICOLON {
@@ -337,7 +337,7 @@ key Z {
   base: '\u0642'
   shift: '\u200d'
   capslock: '\u0642'
-  capslock+shift: '\u0642'
+  capslock+shift: '\u200d'
 }
 
 key X {
@@ -345,7 +345,7 @@ key X {
   base: '\u0641'
   shift: '\u200c'
   capslock: '\u0641'
-  capslock+shift: '\u0641'
+  capslock+shift: '\u200c'
 }
 
 key C {
@@ -353,7 +353,7 @@ key C {
   base: '\u06d2'
   shift: '\u06d3'
   capslock: '\u06d2'
-  capslock+shift: '\u06d2'
+  capslock+shift: '\u06d3'
 }
 
 key V {
@@ -361,7 +361,7 @@ key V {
   base: '\u0633'
   shift: '\u200e'
   capslock: '\u0633'
-  capslock+shift: '\u0633'
+  capslock+shift: '\u200e'
 }
 
 key B {
@@ -369,7 +369,7 @@ key B {
   base: '\u0634'
   shift: '\u0624'
   capslock: '\u0634'
-  capslock+shift: '\u0634'
+  capslock+shift: '\u0624'
 }
 
 key N {
@@ -377,7 +377,7 @@ key N {
   base: '\u063a'
   shift: '\u0626'
   capslock: '\u063a'
-  capslock+shift: '\u063a'
+  capslock+shift: '\u0626'
 }
 
 key M {
@@ -385,7 +385,7 @@ key M {
   base: '\u0639'
   shift: '\u200f'
   capslock: '\u0639'
-  capslock+shift: '\u0639'
+  capslock+shift: '\u200f'
 }
 
 key COMMA {

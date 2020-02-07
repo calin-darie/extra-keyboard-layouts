@@ -479,7 +479,7 @@ key PLUS {
   ralt: '\u00df'
   ralt+shift: '\u030B'
   ralt+capslock: '\u00df'
-  ralt+capslock+shift: '\u00df'
+  ralt+capslock+shift: '\u030B'
 }
 
 key NUMPAD_COMMA {

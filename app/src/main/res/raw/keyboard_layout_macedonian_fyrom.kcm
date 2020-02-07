@@ -227,7 +227,6 @@ key LEFT_BRACKET {
   capslock+shift: '\u0448'
   ralt: '\u0402'
   ralt+capslock: '\u0402'
-  ralt+capslock+shift: '\u0402'
 }
 
 key RIGHT_BRACKET {
@@ -323,7 +322,6 @@ key SEMICOLON {
   capslock+shift: '\u0447'
   ralt: '\u040b'
   ralt+capslock: '\u040b'
-  ralt+capslock+shift: '\u040b'
 }
 
 key APOSTROPHE {

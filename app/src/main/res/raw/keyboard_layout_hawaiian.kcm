@@ -336,7 +336,7 @@ key APOSTROPHE {
   base: '\u02bb'
   shift: '\u0022'
   capslock: '\u02bb'
-  capslock+shift: '\u02bb'
+  capslock+shift: '\u0022'
   ralt: '\u0027'
   ralt+shift: '\u0022'
   ralt+capslock+shift: '\u0022'

@@ -328,7 +328,6 @@ key L {
   capslock+shift: 'l'
   ralt: '\u0141'
   ralt+capslock: '\u0141'
-  ralt+capslock+shift: '\u0141'
 }
 
 key SEMICOLON {
@@ -347,7 +346,6 @@ key APOSTROPHE {
   capslock+shift: '\u0107'
   ralt: '\u00df'
   ralt+capslock: '\u00df'
-  ralt+capslock+shift: '\u00df'
 }
 
 key GRAVE {

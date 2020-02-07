@@ -310,7 +310,7 @@ key S {
   ralt: '\u00df'
   ralt+shift: '\u00a7'
   ralt+capslock: '\u00df'
-  ralt+capslock+shift: '\u00df'
+  ralt+capslock+shift: '\u00a7'
 }
 
 key D {

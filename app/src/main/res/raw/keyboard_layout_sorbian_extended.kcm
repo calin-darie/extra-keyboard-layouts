@@ -139,7 +139,7 @@ key LEFT_BRACKET {
   base: '\u00df'
   shift: '\u003f'
   capslock: '\u00df'
-  capslock+shift: '\u00df'
+  capslock+shift: '\u003f'
   ralt: '\u005c'
 }
 

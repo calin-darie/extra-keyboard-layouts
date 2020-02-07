@@ -144,7 +144,7 @@ key EQUALS {
   base: '\u10df'
   shift: '\u002b'
   capslock: '\u10df'
-  capslock+shift: '\u10df'
+  capslock+shift: '\u002b'
   ralt: '\u007c'
 }
 
@@ -153,7 +153,7 @@ key Q {
   base: '\u10e5'
   shift: 'Q'
   capslock: '\u10e5'
-  capslock+shift: '\u10e5'
+  capslock+shift: 'Q'
 }
 
 key W {
@@ -161,7 +161,7 @@ key W {
   base: '\u10ec'
   shift: 'W'
   capslock: '\u10ec'
-  capslock+shift: '\u10ec'
+  capslock+shift: 'W'
 }
 
 key E {
@@ -169,7 +169,7 @@ key E {
   base: '\u10d4'
   shift: 'E'
   capslock: '\u10d4'
-  capslock+shift: '\u10d4'
+  capslock+shift: 'E'
 }
 
 key R {
@@ -177,7 +177,7 @@ key R {
   base: '\u10e0'
   shift: 'R'
   capslock: '\u10e0'
-  capslock+shift: '\u10e0'
+  capslock+shift: 'R'
 }
 
 key T {
@@ -185,7 +185,7 @@ key T {
   base: '\u10e2'
   shift: 'T'
   capslock: '\u10e2'
-  capslock+shift: '\u10e2'
+  capslock+shift: 'T'
 }
 
 key Y {
@@ -193,7 +193,7 @@ key Y {
   base: '\u10e7'
   shift: 'Y'
   capslock: '\u10e7'
-  capslock+shift: '\u10e7'
+  capslock+shift: 'Y'
 }
 
 key U {
@@ -201,7 +201,7 @@ key U {
   base: '\u10e3'
   shift: 'U'
   capslock: '\u10e3'
-  capslock+shift: '\u10e3'
+  capslock+shift: 'U'
 }
 
 key I {
@@ -209,10 +209,9 @@ key I {
   base: '\u10d8'
   shift: 'I'
   capslock: '\u10d8'
-  capslock+shift: '\u10d8'
+  capslock+shift: 'I'
   ralt: '\u10f2'
   ralt+capslock: '\u10f2'
-  ralt+capslock+shift: '\u10f2'
 }
 
 key O {
@@ -220,7 +219,7 @@ key O {
   base: '\u10dd'
   shift: 'O'
   capslock: '\u10dd'
-  capslock+shift: '\u10dd'
+  capslock+shift: 'O'
 }
 
 key P {
@@ -228,7 +227,7 @@ key P {
   base: '\u10de'
   shift: 'P'
   capslock: '\u10de'
-  capslock+shift: '\u10de'
+  capslock+shift: 'P'
 }
 
 key LEFT_BRACKET {
@@ -236,7 +235,7 @@ key LEFT_BRACKET {
   base: '\u10e8'
   shift: '\u005b'
   capslock: '\u10e8'
-  capslock+shift: '\u10e8'
+  capslock+shift: '\u005b'
   ralt: '\u00ab'
 }
 
@@ -245,7 +244,7 @@ key RIGHT_BRACKET {
   base: '\u10e6'
   shift: '\u005d'
   capslock: '\u10e6'
-  capslock+shift: '\u10e6'
+  capslock+shift: '\u005d'
   ralt: '\u00bb'
 }
 
@@ -254,10 +253,9 @@ key A {
   base: '\u10d0'
   shift: 'A'
   capslock: '\u10d0'
-  capslock+shift: '\u10d0'
+  capslock+shift: 'A'
   ralt: '\u10fa'
   ralt+capslock: '\u10fa'
-  ralt+capslock+shift: '\u10fa'
 }
 
 key S {
@@ -265,7 +263,7 @@ key S {
   base: '\u10e1'
   shift: 'S'
   capslock: '\u10e1'
-  capslock+shift: '\u10e1'
+  capslock+shift: 'S'
 }
 
 key D {
@@ -273,7 +271,7 @@ key D {
   base: '\u10d3'
   shift: 'D'
   capslock: '\u10d3'
-  capslock+shift: '\u10d3'
+  capslock+shift: 'D'
 }
 
 key F {
@@ -281,10 +279,9 @@ key F {
   base: '\u10e4'
   shift: 'F'
   capslock: '\u10e4'
-  capslock+shift: '\u10e4'
+  capslock+shift: 'F'
   ralt: '\u10f6'
   ralt+capslock: '\u10f6'
-  ralt+capslock+shift: '\u10f6'
 }
 
 key G {
@@ -292,10 +289,9 @@ key G {
   base: '\u10d2'
   shift: 'G'
   capslock: '\u10d2'
-  capslock+shift: '\u10d2'
+  capslock+shift: 'G'
   ralt: '\u10f9'
   ralt+capslock: '\u10f9'
-  ralt+capslock+shift: '\u10f9'
 }
 
 key H {
@@ -303,10 +299,9 @@ key H {
   base: '\u10f0'
   shift: 'H'
   capslock: '\u10f0'
-  capslock+shift: '\u10f0'
+  capslock+shift: 'H'
   ralt: '\u10f1'
   ralt+capslock: '\u10f1'
-  ralt+capslock+shift: '\u10f1'
 }
 
 key J {
@@ -314,10 +309,9 @@ key J {
   base: '\u10ef'
   shift: 'J'
   capslock: '\u10ef'
-  capslock+shift: '\u10ef'
+  capslock+shift: 'J'
   ralt: '\u10f7'
   ralt+capslock: '\u10f7'
-  ralt+capslock+shift: '\u10f7'
 }
 
 key K {
@@ -325,7 +319,7 @@ key K {
   base: '\u10d9'
   shift: 'K'
   capslock: '\u10d9'
-  capslock+shift: '\u10d9'
+  capslock+shift: 'K'
 }
 
 key L {
@@ -333,7 +327,7 @@ key L {
   base: '\u10da'
   shift: 'L'
   capslock: '\u10da'
-  capslock+shift: '\u10da'
+  capslock+shift: 'L'
 }
 
 key SEMICOLON {
@@ -341,7 +335,7 @@ key SEMICOLON {
   base: '\u10d7'
   shift: '\u003a'
   capslock: '\u10d7'
-  capslock+shift: '\u10d7'
+  capslock+shift: '\u003a'
 }
 
 key APOSTROPHE {
@@ -349,7 +343,7 @@ key APOSTROPHE {
   base: '\u10e9'
   shift: '\u0022'
   capslock: '\u10e9'
-  capslock+shift: '\u10e9'
+  capslock+shift: '\u0022'
 }
 
 key GRAVE {
@@ -357,7 +351,7 @@ key GRAVE {
   base: '\u10ed'
   shift: '\u005c'
   capslock: '\u10ed'
-  capslock+shift: '\u10ed'
+  capslock+shift: '\u005c'
   ralt: '\u0060'
 }
 
@@ -373,10 +367,9 @@ key Z {
   base: '\u10d6'
   shift: 'Z'
   capslock: '\u10d6'
-  capslock+shift: '\u10d6'
+  capslock+shift: 'Z'
   ralt: '\u10f5'
   ralt+capslock: '\u10f5'
-  ralt+capslock+shift: '\u10f5'
 }
 
 key X {
@@ -384,10 +377,9 @@ key X {
   base: '\u10ee'
   shift: 'X'
   capslock: '\u10ee'
-  capslock+shift: '\u10ee'
+  capslock+shift: 'X'
   ralt: '\u10f4'
   ralt+capslock: '\u10f4'
-  ralt+capslock+shift: '\u10f4'
 }
 
 key C {
@@ -395,7 +387,7 @@ key C {
   base: '\u10ea'
   shift: 'C'
   capslock: '\u10ea'
-  capslock+shift: '\u10ea'
+  capslock+shift: 'C'
 }
 
 key V {
@@ -403,10 +395,9 @@ key V {
   base: '\u10d5'
   shift: 'V'
   capslock: '\u10d5'
-  capslock+shift: '\u10d5'
+  capslock+shift: 'V'
   ralt: '\u10f3'
   ralt+capslock: '\u10f3'
-  ralt+capslock+shift: '\u10f3'
 }
 
 key B {
@@ -414,7 +405,7 @@ key B {
   base: '\u10d1'
   shift: 'B'
   capslock: '\u10d1'
-  capslock+shift: '\u10d1'
+  capslock+shift: 'B'
 }
 
 key N {
@@ -422,10 +413,9 @@ key N {
   base: '\u10dc'
   shift: 'N'
   capslock: '\u10dc'
-  capslock+shift: '\u10dc'
+  capslock+shift: 'N'
   ralt: '\u10fc'
   ralt+capslock: '\u10fc'
-  ralt+capslock+shift: '\u10fc'
 }
 
 key M {
@@ -433,7 +423,7 @@ key M {
   base: '\u10db'
   shift: 'M'
   capslock: '\u10db'
-  capslock+shift: '\u10db'
+  capslock+shift: 'M'
 }
 
 key COMMA {
@@ -457,7 +447,7 @@ key SLASH {
   base: '\u10eb'
   shift: '\u003f'
   capslock: '\u10eb'
-  capslock+shift: '\u10eb'
+  capslock+shift: '\u003f'
   ralt: '\u10fb'
 }
 

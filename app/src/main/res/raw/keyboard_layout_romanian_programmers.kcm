@@ -174,7 +174,6 @@ key W {
   capslock+shift: 'w'
   ralt: '\u00df'
   ralt+capslock: '\u00df'
-  ralt+capslock+shift: '\u00df'
 }
 
 key E {

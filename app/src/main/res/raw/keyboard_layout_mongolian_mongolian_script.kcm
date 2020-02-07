@@ -141,7 +141,6 @@ key Q {
   label: '\u1834'
   base: '\u1834'
   capslock: '\u1834'
-  capslock+shift: '\u1834'
 }
 
 key W {
@@ -149,7 +148,7 @@ key W {
   base: '\u1823'
   shift: '\u1838'
   capslock: '\u1823'
-  capslock+shift: '\u1823'
+  capslock+shift: '\u1838'
 }
 
 key E {
@@ -157,7 +156,7 @@ key E {
   base: '\u1821'
   shift: '\u1827'
   capslock: '\u1821'
-  capslock+shift: '\u1821'
+  capslock+shift: '\u1827'
 }
 
 key R {
@@ -165,49 +164,43 @@ key R {
   base: '\u1837'
   shift: '\u183f'
   capslock: '\u1837'
-  capslock+shift: '\u1837'
+  capslock+shift: '\u183f'
 }
 
 key T {
   label: '\u1832'
   base: '\u1832'
   capslock: '\u1832'
-  capslock+shift: '\u1832'
 }
 
 key Y {
   label: '\u1836'
   base: '\u1836'
   capslock: '\u1836'
-  capslock+shift: '\u1836'
 }
 
 key U {
   label: '\u1826'
   base: '\u1826'
   capslock: '\u1826'
-  capslock+shift: '\u1826'
 }
 
 key I {
   label: '\u1822'
   base: '\u1822'
   capslock: '\u1822'
-  capslock+shift: '\u1822'
 }
 
 key O {
   label: '\u1825'
   base: '\u1825'
   capslock: '\u1825'
-  capslock+shift: '\u1825'
 }
 
 key P {
   label: '\u182b'
   base: '\u182b'
   capslock: '\u182b'
-  capslock+shift: '\u182b'
 }
 
 key LEFT_BRACKET {
@@ -228,35 +221,30 @@ key A {
   label: '\u1820'
   base: '\u1820'
   capslock: '\u1820'
-  capslock+shift: '\u1820'
 }
 
 key S {
   label: '\u1830'
   base: '\u1830'
   capslock: '\u1830'
-  capslock+shift: '\u1830'
 }
 
 key D {
   label: '\u1833'
   base: '\u1833'
   capslock: '\u1833'
-  capslock+shift: '\u1833'
 }
 
 key F {
   label: '\u1839'
   base: '\u1839'
   capslock: '\u1839'
-  capslock+shift: '\u1839'
 }
 
 key G {
   label: '\u182d'
   base: '\u182d'
   capslock: '\u182d'
-  capslock+shift: '\u182d'
 }
 
 key H {
@@ -264,14 +252,13 @@ key H {
   base: '\u182c'
   shift: '\u183e'
   capslock: '\u182c'
-  capslock+shift: '\u182c'
+  capslock+shift: '\u183e'
 }
 
 key J {
   label: '\u1835'
   base: '\u1835'
   capslock: '\u1835'
-  capslock+shift: '\u1835'
 }
 
 key K {
@@ -279,7 +266,7 @@ key K {
   base: '\u183a'
   shift: '\u183b'
   capslock: '\u183a'
-  capslock+shift: '\u183a'
+  capslock+shift: '\u183b'
 }
 
 key L {
@@ -287,7 +274,7 @@ key L {
   base: '\u182f'
   shift: '\u1840'
   capslock: '\u182f'
-  capslock+shift: '\u182f'
+  capslock+shift: '\u1840'
 }
 
 key SEMICOLON {
@@ -323,14 +310,13 @@ key Z {
   base: '\u183d'
   shift: '\u1841'
   capslock: '\u183d'
-  capslock+shift: '\u183d'
+  capslock+shift: '\u1841'
 }
 
 key X {
   label: '\u1831'
   base: '\u1831'
   capslock: '\u1831'
-  capslock+shift: '\u1831'
 }
 
 key C {
@@ -338,21 +324,19 @@ key C {
   base: '\u183c'
   shift: '\u1842'
   capslock: '\u183c'
-  capslock+shift: '\u183c'
+  capslock+shift: '\u1842'
 }
 
 key V {
   label: '\u1824'
   base: '\u1824'
   capslock: '\u1824'
-  capslock+shift: '\u1824'
 }
 
 key B {
   label: '\u182a'
   base: '\u182a'
   capslock: '\u182a'
-  capslock+shift: '\u182a'
 }
 
 key N {
@@ -360,14 +344,13 @@ key N {
   base: '\u1828'
   shift: '\u1829'
   capslock: '\u1828'
-  capslock+shift: '\u1828'
+  capslock+shift: '\u1829'
 }
 
 key M {
   label: '\u182e'
   base: '\u182e'
   capslock: '\u182e'
-  capslock+shift: '\u182e'
 }
 
 key COMMA {

@@ -261,7 +261,6 @@ key S {
   capslock+shift: 's'
   ralt: '\u00df'
   ralt+capslock: '\u00df'
-  ralt+capslock+shift: '\u00df'
 }
 
 key D {

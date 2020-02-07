@@ -38,133 +38,114 @@ key Q {
   label: '\u168a'
   base: '\u168a'
   capslock: '\u168a'
-  capslock+shift: '\u168a'
 }
 
 key W {
   label: '\u1695'
   base: '\u1695'
   capslock: '\u1695'
-  capslock+shift: '\u1695'
 }
 
 key E {
   label: '\u1693'
   base: '\u1693'
   capslock: '\u1693'
-  capslock+shift: '\u1693'
 }
 
 key R {
   label: '\u168f'
   base: '\u168f'
   capslock: '\u168f'
-  capslock+shift: '\u168f'
 }
 
 key T {
   label: '\u1688'
   base: '\u1688'
   capslock: '\u1688'
-  capslock+shift: '\u1688'
 }
 
 key Y {
   label: '\u1698'
   base: '\u1698'
   capslock: '\u1698'
-  capslock+shift: '\u1698'
 }
 
 key U {
   label: '\u1692'
   base: '\u1692'
   capslock: '\u1692'
-  capslock+shift: '\u1692'
 }
 
 key I {
   label: '\u1694'
   base: '\u1694'
   capslock: '\u1694'
-  capslock+shift: '\u1694'
 }
 
 key O {
   label: '\u1691'
   base: '\u1691'
   capslock: '\u1691'
-  capslock+shift: '\u1691'
 }
 
 key P {
   label: '\u169a'
   base: '\u169a'
   capslock: '\u169a'
-  capslock+shift: '\u169a'
 }
 
 key A {
   label: '\u1690'
   base: '\u1690'
   capslock: '\u1690'
-  capslock+shift: '\u1690'
 }
 
 key S {
   label: '\u1684'
   base: '\u1684'
   capslock: '\u1684'
-  capslock+shift: '\u1684'
 }
 
 key D {
   label: '\u1687'
   base: '\u1687'
   capslock: '\u1687'
-  capslock+shift: '\u1687'
 }
 
 key F {
   label: '\u1683'
   base: '\u1683'
   capslock: '\u1683'
-  capslock+shift: '\u1683'
 }
 
 key G {
   label: '\u168c'
   base: '\u168c'
   capslock: '\u168c'
-  capslock+shift: '\u168c'
 }
 
 key H {
   label: '\u1686'
   base: '\u1686'
   capslock: '\u1686'
-  capslock+shift: '\u1686'
 }
 
 key J {
   label: '\u1697'
   base: '\u1697'
   capslock: '\u1697'
-  capslock+shift: '\u1697'
 }
 
 key K {
   label: '\u1696'
   base: '\u1696'
   capslock: '\u1696'
-  capslock+shift: '\u1696'
 }
 
 key L {
   label: '\u1682'
   base: '\u1682'
   capslock: '\u1682'
-  capslock+shift: '\u1682'
 }
 
 key APOSTROPHE {
@@ -183,49 +164,42 @@ key Z {
   label: '\u168e'
   base: '\u168e'
   capslock: '\u168e'
-  capslock+shift: '\u168e'
 }
 
 key X {
   label: '\u1699'
   base: '\u1699'
   capslock: '\u1699'
-  capslock+shift: '\u1699'
 }
 
 key C {
   label: '\u1689'
   base: '\u1689'
   capslock: '\u1689'
-  capslock+shift: '\u1689'
 }
 
 key V {
   label: '\u168d'
   base: '\u168d'
   capslock: '\u168d'
-  capslock+shift: '\u168d'
 }
 
 key B {
   label: '\u1681'
   base: '\u1681'
   capslock: '\u1681'
-  capslock+shift: '\u1681'
 }
 
 key N {
   label: '\u1685'
   base: '\u1685'
   capslock: '\u1685'
-  capslock+shift: '\u1685'
 }
 
 key M {
   label: '\u168b'
   base: '\u168b'
   capslock: '\u168b'
-  capslock+shift: '\u168b'
 }
 
 key SPACE {

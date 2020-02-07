@@ -169,7 +169,7 @@ key E {
   base: '\u05e7'
   shift: 'E'
   capslock: '\u05e7'
-  capslock+shift: '\u05e7'
+  capslock+shift: 'E'
   ralt: '\u05b8'
 }
 
@@ -178,7 +178,7 @@ key R {
   base: '\u05e8'
   shift: 'R'
   capslock: '\u05e8'
-  capslock+shift: '\u05e8'
+  capslock+shift: 'R'
   ralt: '\u05b3'
 }
 
@@ -187,7 +187,7 @@ key T {
   base: '\u05d0'
   shift: 'T'
   capslock: '\u05d0'
-  capslock+shift: '\u05d0'
+  capslock+shift: 'T'
 }
 
 key Y {
@@ -195,10 +195,9 @@ key Y {
   base: '\u05d8'
   shift: 'Y'
   capslock: '\u05d8'
-  capslock+shift: '\u05d8'
+  capslock+shift: 'Y'
   ralt: '\u05f0'
   ralt+capslock: '\u05f0'
-  ralt+capslock+shift: '\u05f0'
 }
 
 key U {
@@ -206,7 +205,7 @@ key U {
   base: '\u05d5'
   shift: 'U'
   capslock: '\u05d5'
-  capslock+shift: '\u05d5'
+  capslock+shift: 'U'
   ralt: '\u05b9'
   ralt+shift: '\u05ba'
   ralt+capslock+shift: '\u05ba'
@@ -217,7 +216,7 @@ key I {
   base: '\u05df'
   shift: 'I'
   capslock: '\u05df'
-  capslock+shift: '\u05df'
+  capslock+shift: 'I'
 }
 
 key O {
@@ -225,7 +224,7 @@ key O {
   base: '\u05dd'
   shift: 'O'
   capslock: '\u05dd'
-  capslock+shift: '\u05dd'
+  capslock+shift: 'O'
 }
 
 key P {
@@ -233,7 +232,7 @@ key P {
   base: '\u05e4'
   shift: 'P'
   capslock: '\u05e4'
-  capslock+shift: '\u05e4'
+  capslock+shift: 'P'
   ralt: '\u05b7'
 }
 
@@ -258,7 +257,7 @@ key A {
   base: '\u05e9'
   shift: 'A'
   capslock: '\u05e9'
-  capslock+shift: '\u05e9'
+  capslock+shift: 'A'
   ralt: '\u05b0'
 }
 
@@ -267,7 +266,7 @@ key S {
   base: '\u05d3'
   shift: 'S'
   capslock: '\u05d3'
-  capslock+shift: '\u05d3'
+  capslock+shift: 'S'
   ralt: '\u05bc'
 }
 
@@ -276,7 +275,7 @@ key D {
   base: '\u05d2'
   shift: 'D'
   capslock: '\u05d2'
-  capslock+shift: '\u05d2'
+  capslock+shift: 'D'
 }
 
 key F {
@@ -284,7 +283,7 @@ key F {
   base: '\u05db'
   shift: 'F'
   capslock: '\u05db'
-  capslock+shift: '\u05db'
+  capslock+shift: 'F'
 }
 
 key G {
@@ -292,10 +291,9 @@ key G {
   base: '\u05e2'
   shift: 'G'
   capslock: '\u05e2'
-  capslock+shift: '\u05e2'
+  capslock+shift: 'G'
   ralt: '\u05f1'
   ralt+capslock: '\u05f1'
-  ralt+capslock+shift: '\u05f1'
 }
 
 key H {
@@ -303,10 +301,9 @@ key H {
   base: '\u05d9'
   shift: 'H'
   capslock: '\u05d9'
-  capslock+shift: '\u05d9'
+  capslock+shift: 'H'
   ralt: '\u05f2'
   ralt+capslock: '\u05f2'
-  ralt+capslock+shift: '\u05f2'
 }
 
 key J {
@@ -314,7 +311,7 @@ key J {
   base: '\u05d7'
   shift: 'J'
   capslock: '\u05d7'
-  capslock+shift: '\u05d7'
+  capslock+shift: 'J'
   ralt: '\u05b4'
   ralt+shift: '\u200d'
   ralt+capslock+shift: '\u200d'
@@ -325,7 +322,7 @@ key K {
   base: '\u05dc'
   shift: 'K'
   capslock: '\u05dc'
-  capslock+shift: '\u05dc'
+  capslock+shift: 'K'
 }
 
 key L {
@@ -333,7 +330,7 @@ key L {
   base: '\u05da'
   shift: 'L'
   capslock: '\u05da'
-  capslock+shift: '\u05da'
+  capslock+shift: 'L'
   ralt: '\u201c'
   ralt+shift: '\u201c'
   ralt+capslock+shift: '\u201c'
@@ -380,7 +377,7 @@ key Z {
   base: '\u05d6'
   shift: 'Z'
   capslock: '\u05d6'
-  capslock+shift: '\u05d6'
+  capslock+shift: 'Z'
 }
 
 key X {
@@ -388,7 +385,7 @@ key X {
   base: '\u05e1'
   shift: 'X'
   capslock: '\u05e1'
-  capslock+shift: '\u05e1'
+  capslock+shift: 'X'
   ralt: '\u05b6'
 }
 
@@ -397,7 +394,7 @@ key C {
   base: '\u05d1'
   shift: 'C'
   capslock: '\u05d1'
-  capslock+shift: '\u05d1'
+  capslock+shift: 'C'
   ralt: '\u05b1'
   ralt+shift: '\u034f'
   ralt+capslock+shift: '\u034f'
@@ -408,7 +405,7 @@ key V {
   base: '\u05d4'
   shift: 'V'
   capslock: '\u05d4'
-  capslock+shift: '\u05d4'
+  capslock+shift: 'V'
 }
 
 key B {
@@ -416,7 +413,7 @@ key B {
   base: '\u05e0'
   shift: 'B'
   capslock: '\u05e0'
-  capslock+shift: '\u05e0'
+  capslock+shift: 'B'
   ralt+shift: '\u05c6'
   ralt+capslock+shift: '\u05c6'
 }
@@ -426,7 +423,7 @@ key N {
   base: '\u05de'
   shift: 'N'
   capslock: '\u05de'
-  capslock+shift: '\u05de'
+  capslock+shift: 'N'
   ralt+shift: '\u200c'
   ralt+capslock+shift: '\u200c'
 }
@@ -436,7 +433,7 @@ key M {
   base: '\u05e6'
   shift: 'M'
   capslock: '\u05e6'
-  capslock+shift: '\u05e6'
+  capslock+shift: 'M'
   ralt: '\u05b5'
 }
 
