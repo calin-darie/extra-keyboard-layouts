@@ -2,7 +2,6 @@
     <string name="app_name">Extra Keyboard Layouts</string>
     <string name="keyboard_layouts_label">Extra keyboard layouts</string>
 	<string name="keyboard_layout_canadian_french">Canadian French</string>
-	<string name="keyboard_layout_bulgarian_latin">Bulgarian (Latin)</string>
 	<string name="keyboard_layout_czech_qwerty">Czech (QWERTY)</string>
 	<string name="keyboard_layout_german_ibm">German (IBM)</string>
 	<string name="keyboard_layout_greek_220">Greek (220)</string>
@@ -80,7 +79,6 @@
 	<string name="keyboard_layout_greek_latin">Greek Latin</string>
 	<string name="keyboard_layout_us_english_table_for_ibm_arabic_238_l">US English Table for IBM Arabic 238_L</string>
 	<string name="keyboard_layout_latin_american">Latin American</string>
-	<string name="keyboard_layout_belgian_french">Belgian French</string>
 	<string name="keyboard_layout_belgian_period">Belgian (Period)</string>
 	<string name="keyboard_layout_serbian_latin">Serbian (Latin)</string>
 	<string name="keyboard_layout_azeri_cyrillic">Azeri Cyrillic</string>
@@ -90,4 +88,5 @@
 	<string name="keyboard_layout_n_ko">N’Ko</string>
 	<string name="keyboard_layout_serbian_cyrillic">Serbian (Cyrillic)</string>
 	<string name="keyboard_layout_hindi_traditional">Hindi Traditional INSCRIPT</string>
+	<string name="keyboard_layout_jawi_phonetic_qwerty">Jawi Phonetic (QWERTY)</string>
 </resources>

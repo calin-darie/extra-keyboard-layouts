@@ -1,0 +1,424 @@
+# License: MIT
+
+# Jawi Phonetic (QWERTY)
+type OVERLAY
+
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 16 Q
+map key 17 W
+map key 18 E
+map key 19 R
+map key 20 T
+map key 21 Y
+map key 22 U
+map key 23 I
+map key 24 O
+map key 25 P
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 A
+map key 31 S
+map key 32 D
+map key 33 F
+map key 34 G
+map key 35 H
+map key 36 J
+map key 37 K
+map key 38 L
+map key 39 SEMICOLON
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 Z
+map key 45 X
+map key 46 C
+map key 47 V
+map key 48 B
+map key 49 N
+map key 50 M
+map key 51 COMMA
+map key 52 PERIOD
+map key 53 SLASH
+map key 57 SPACE
+map key 95 NUMPAD_COMMA
+
+key 1 {
+  label: '\u0661'
+  base: '\u0661'
+  shift: '\u0021'
+  capslock+shift: '\u0021'
+}
+
+key 2 {
+  label: '\u0662'
+  base: '\u0662'
+  shift: '\u0621'
+  capslock+shift: '\u0621'
+}
+
+key 3 {
+  label: '\u0663'
+  base: '\u0663'
+  shift: '\u0623'
+  capslock+shift: '\u0623'
+}
+
+key 4 {
+  label: '\u0664'
+  base: '\u0664'
+  shift: '\u0622'
+  capslock+shift: '\u0622'
+}
+
+key 5 {
+  label: '\u0665'
+  base: '\u0665'
+  shift: '\u0625'
+  capslock+shift: '\u0625'
+}
+
+key 6 {
+  label: '\u0666'
+  base: '\u0666'
+  shift: '\u0626'
+  capslock+shift: '\u0626'
+}
+
+key 7 {
+  label: '\u0667'
+  base: '\u0667'
+  shift: '\u0624'
+  capslock+shift: '\u0624'
+}
+
+key 8 {
+  label: '\u0668'
+  base: '\u0668'
+  shift: none
+}
+
+key 9 {
+  label: '\u0669'
+  base: '\u0669'
+  shift: '\u0028'
+  capslock+shift: '\u0028'
+}
+
+key 0 {
+  label: '\u0660'
+  base: '\u0660'
+  shift: '\u0029'
+  capslock+shift: '\u0029'
+}
+
+key MINUS {
+  label: '\u002d'
+  base: '\u002d'
+  shift: '\u005f'
+  capslock+shift: '\u005f'
+}
+
+key EQUALS {
+  label: '\u003d'
+  base: '\u003d'
+  shift: '\u002b'
+  capslock+shift: '\u002b'
+}
+
+key Q {
+  label: '\u0642'
+  base: '\u0642'
+  shift: '\u06a4'
+  capslock: '\u0642'
+  capslock+shift: '\u06a4'
+}
+
+key W {
+  label: '\u0648'
+  base: '\u0648'
+  shift: '\u0651'
+  capslock: '\u0648'
+  capslock+shift: '\u0651'
+}
+
+key E {
+  label: '\u0639'
+  base: '\u0639'
+  shift: '\u063a'
+  capslock: '\u0639'
+  capslock+shift: '\u063a'
+}
+
+key R {
+  label: '\u0631'
+  base: '\u0631'
+  shift: '\u063a'
+  capslock: '\u0631'
+  capslock+shift: '\u063a'
+}
+
+key T {
+  label: '\u062a'
+  base: '\u062a'
+  shift: '\u0629'
+  capslock: '\u062a'
+  capslock+shift: '\u0629'
+}
+
+key Y {
+  label: '\u064a'
+  base: '\u064a'
+  shift: '\u0649'
+  capslock: '\u064a'
+  capslock+shift: '\u0649'
+}
+
+key U {
+  label: '\u0648'
+  base: '\u0648'
+  shift: '\u0637'
+  capslock: '\u0648'
+  capslock+shift: '\u0637'
+}
+
+key I {
+  label: '\u064a'
+  base: '\u064a'
+  shift: '\u0640'
+  capslock: '\u064a'
+  capslock+shift: '\u0640'
+}
+
+key O {
+  label: '\u0639'
+  base: '\u0639'
+  shift: '\u200c'
+  capslock: '\u0639'
+  capslock+shift: '\u200c'
+}
+
+key P {
+  label: '\u06a4'
+  base: '\u06a4'
+  shift: '\u062b'
+  capslock: '\u06a4'
+  capslock+shift: '\u062b'
+}
+
+key LEFT_BRACKET {
+  label: '\u005b'
+  base: '\u005b'
+  shift: '\u007b'
+  capslock+shift: '\u007b'
+}
+
+key RIGHT_BRACKET {
+  label: '\u005d'
+  base: '\u005d'
+  shift: '\u007d'
+  capslock+shift: '\u007d'
+}
+
+key A {
+  label: '\u0627'
+  base: '\u0627'
+  shift: '\u0622'
+  capslock: '\u0627'
+  capslock+shift: '\u0622'
+}
+
+key S {
+  label: '\u0633'
+  base: '\u0633'
+  shift: '\u0634'
+  capslock: '\u0633'
+  capslock+shift: '\u0634'
+}
+
+key D {
+  label: '\u062f'
+  base: '\u062f'
+  shift: '\u0636'
+  capslock: '\u062f'
+  capslock+shift: '\u0636'
+}
+
+key F {
+  label: '\u0641'
+  base: '\u0641'
+  shift: '\u06a4'
+  capslock: '\u0641'
+  capslock+shift: '\u06a4'
+}
+
+key G {
+  label: '\u06ac'
+  base: '\u06ac'
+  shift: '\u06a0'
+  capslock: '\u06ac'
+  capslock+shift: '\u06a0'
+}
+
+key H {
+  label: '\u0647'
+  base: '\u0647'
+  shift: '\u062d'
+  capslock: '\u0647'
+  capslock+shift: '\u062d'
+}
+
+key J {
+  label: '\u062c'
+  base: '\u062c'
+  shift: '\u062c'
+  capslock: '\u062c'
+  capslock+shift: '\u062c'
+}
+
+key K {
+  label: '\u0643'
+  base: '\u0643'
+  shift: '\u0642'
+  capslock: '\u0643'
+  capslock+shift: '\u0642'
+}
+
+key L {
+  label: '\u0644'
+  base: '\u0644'
+  shift: '\ufefb'
+  capslock: '\u0644'
+  capslock+shift: '\ufefb'
+}
+
+key SEMICOLON {
+  label: '\u061b'
+  base: '\u061b'
+  shift: '\u003a'
+  capslock+shift: '\u003a'
+}
+
+key APOSTROPHE {
+  label: '\u0027'
+  base: '\u0027'
+  shift: '\u0022'
+  capslock+shift: '\u0022'
+}
+
+key GRAVE {
+  label: '\u002d'
+  base: '\u002d'
+  shift: '\u005f'
+  capslock+shift: '\u005f'
+}
+
+key BACKSLASH {
+  label: '\u0621'
+  base: '\u0621'
+  shift: '\u0625'
+  capslock: '\u0621'
+  capslock+shift: '\u0625'
+}
+
+key Z {
+  label: '\u0632'
+  base: '\u0632'
+  shift: '\u0630'
+  capslock: '\u0632'
+  capslock+shift: '\u0630'
+}
+
+key X {
+  label: '\u062e'
+  base: '\u062e'
+  shift: '\u062d'
+  capslock: '\u062e'
+  capslock+shift: '\u062d'
+}
+
+key C {
+  label: '\u0686'
+  base: '\u0686'
+  shift: '\ufeb9'
+  capslock: '\u0686'
+  capslock+shift: '\ufeb9'
+}
+
+key V {
+  label: '\u06cf'
+  base: '\u06cf'
+  shift: '\u0638'
+  capslock: '\u06cf'
+  capslock+shift: '\u0638'
+}
+
+key B {
+  label: '\u0628'
+  base: '\u0628'
+  shift: '\u067e'
+  capslock: '\u0628'
+  capslock+shift: '\u067e'
+}
+
+key N {
+  label: '\u0646'
+  base: '\u0646'
+  shift: '\u06bd'
+  capslock: '\u0646'
+  capslock+shift: '\u06bd'
+}
+
+key M {
+  label: '\u0645'
+  base: '\u0645'
+  shift: '\u0622'
+  capslock: '\u0645'
+  capslock+shift: '\u0622'
+}
+
+key COMMA {
+  label: '\u060c'
+  base: '\u060c'
+  shift: '\u003c'
+  capslock+shift: '\u003c'
+}
+
+key PERIOD {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u003e'
+  capslock+shift: '\u003e'
+}
+
+key SLASH {
+  label: '\u002f'
+  base: '\u002f'
+  shift: '\u061f'
+  capslock+shift: '\u061f'
+}
+
+key SPACE {
+  label: '\u0020'
+  base: '\u0020'
+  shift: '\u0020'
+  capslock+shift: '\u0020'
+}
+
+key NUMPAD_COMMA {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u002e'
+  capslock+shift: '\u002e'
+}
+

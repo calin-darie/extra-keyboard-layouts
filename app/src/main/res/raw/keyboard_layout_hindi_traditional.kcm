@@ -398,6 +398,7 @@ key B {
   label: '\u0935'
   base: '\u0935'
   capslock: '\u0935'
+  shift,capslock+shift: none
 }
 
 key N {

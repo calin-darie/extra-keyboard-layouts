@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
     <keyboard-layout android:label="@string/keyboard_layout_canadian_french" android:name="keyboard_layout_canadian_french" android:keyboardLayout="@raw/keyboard_layout_canadian_french"/>
-    <keyboard-layout android:label="@string/keyboard_layout_bulgarian_latin" android:name="keyboard_layout_bulgarian_latin" android:keyboardLayout="@raw/keyboard_layout_bulgarian_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_czech_qwerty" android:name="keyboard_layout_czech_qwerty" android:keyboardLayout="@raw/keyboard_layout_czech_qwerty"/>
     <keyboard-layout android:label="@string/keyboard_layout_german_ibm" android:name="keyboard_layout_german_ibm" android:keyboardLayout="@raw/keyboard_layout_german_ibm"/>
     <keyboard-layout android:label="@string/keyboard_layout_greek_220" android:name="keyboard_layout_greek_220" android:keyboardLayout="@raw/keyboard_layout_greek_220"/>
@@ -80,7 +79,6 @@
     <keyboard-layout android:label="@string/keyboard_layout_greek_latin" android:name="keyboard_layout_greek_latin" android:keyboardLayout="@raw/keyboard_layout_greek_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_us_english_table_for_ibm_arabic_238_l" android:name="keyboard_layout_us_english_table_for_ibm_arabic_238_l" android:keyboardLayout="@raw/keyboard_layout_us_english_table_for_ibm_arabic_238_l"/>
     <keyboard-layout android:label="@string/keyboard_layout_latin_american" android:name="keyboard_layout_latin_american" android:keyboardLayout="@raw/keyboard_layout_latin_american"/>
-    <keyboard-layout android:label="@string/keyboard_layout_belgian_french" android:name="keyboard_layout_belgian_french" android:keyboardLayout="@raw/keyboard_layout_belgian_french"/>
     <keyboard-layout android:label="@string/keyboard_layout_belgian_period" android:name="keyboard_layout_belgian_period" android:keyboardLayout="@raw/keyboard_layout_belgian_period"/>
     <keyboard-layout android:label="@string/keyboard_layout_serbian_latin" android:name="keyboard_layout_serbian_latin" android:keyboardLayout="@raw/keyboard_layout_serbian_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_azeri_cyrillic" android:name="keyboard_layout_azeri_cyrillic" android:keyboardLayout="@raw/keyboard_layout_azeri_cyrillic"/>
@@ -89,4 +87,5 @@
     <keyboard-layout android:label="@string/keyboard_layout_mongolian_mongolian_script" android:name="keyboard_layout_mongolian_mongolian_script" android:keyboardLayout="@raw/keyboard_layout_mongolian_mongolian_script"/>
     <keyboard-layout android:label="@string/keyboard_layout_n_ko" android:name="keyboard_layout_n_ko" android:keyboardLayout="@raw/keyboard_layout_n_ko"/>
     <keyboard-layout android:label="@string/keyboard_layout_serbian_cyrillic" android:name="keyboard_layout_serbian_cyrillic" android:keyboardLayout="@raw/keyboard_layout_serbian_cyrillic"/>
+    <keyboard-layout android:label="@string/keyboard_layout_jawi_phonetic_qwerty" android:name="keyboard_layout_jawi_phonetic_qwerty" android:keyboardLayout="@raw/keyboard_layout_jawi_phonetic_qwerty"/>
 </keyboard-layouts>
