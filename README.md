@@ -1,5 +1,6 @@
-# extra-keyboard-layouts
+# Extra Physical Keyboard Layouts
 To România and beyond!
+https://play.google.com/store/apps/details?id=varzan.extraKeyboardLayouts
 
 Adds a few choices to the list of layouts to use when a physical keyboard is connected e.g. via OTG or Bluetooth.
 
