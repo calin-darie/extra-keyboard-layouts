@@ -4,6 +4,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_czech_qwerty" android:name="keyboard_layout_czech_qwerty" android:keyboardLayout="@raw/keyboard_layout_czech_qwerty"/>
     <keyboard-layout android:label="@string/keyboard_layout_german_ibm" android:name="keyboard_layout_german_ibm" android:keyboardLayout="@raw/keyboard_layout_german_ibm"/>
     <keyboard-layout android:label="@string/keyboard_layout_greek_220" android:name="keyboard_layout_greek_220" android:keyboardLayout="@raw/keyboard_layout_greek_220"/>
+    <keyboard-layout android:label="@string/keyboard_layout_hungarian_101_key_qwerty" android:name="keyboard_layout_hungarian_101_key_qwerty" android:keyboardLayout="@raw/keyboard_layout_hungarian_101_key_qwerty"/>
     <keyboard-layout android:label="@string/keyboard_layout_italian_142" android:name="keyboard_layout_italian_142" android:keyboardLayout="@raw/keyboard_layout_italian_142"/>
     <keyboard-layout android:label="@string/keyboard_layout_romanian_standard" android:name="keyboard_layout_romanian_standard" android:keyboardLayout="@raw/keyboard_layout_romanian_standard"/>
     <keyboard-layout android:label="@string/keyboard_layout_russian_typewriter" android:name="keyboard_layout_russian_typewriter" android:keyboardLayout="@raw/keyboard_layout_russian_typewriter"/>

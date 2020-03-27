@@ -6,6 +6,7 @@
 	<string name="keyboard_layout_czech_qwerty">Czech (QWERTY)</string>
 	<string name="keyboard_layout_german_ibm">German (IBM)</string>
 	<string name="keyboard_layout_greek_220">Greek (220)</string>
+	<string name="keyboard_layout_hungarian_101_key_qwerty">Hungarian 101-key QWERTY</string>
 	<string name="keyboard_layout_italian_142">Italian (142)</string>
 	<string name="keyboard_layout_romanian_standard">Romanian (Standard)</string>
 	<string name="keyboard_layout_russian_typewriter">Russian (Typewriter)</string>
