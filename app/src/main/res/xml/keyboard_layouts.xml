@@ -129,5 +129,4 @@
     <keyboard-layout android:label="@string/keyboard_layout_jawi_sirim" android:name="keyboard_layout_jawi_sirim" android:keyboardLayout="@raw/keyboard_layout_jawi_sirim"/>
     <keyboard-layout android:label="@string/keyboard_layout_jawi_phonetic_qwerty" android:name="keyboard_layout_jawi_phonetic_qwerty" android:keyboardLayout="@raw/keyboard_layout_jawi_phonetic_qwerty"/>
     <keyboard-layout android:label="@string/keyboard_layout_slovak_qwertz" android:name="keyboard_layout_slovak_qwertz" android:keyboardLayout="@raw/keyboard_layout_slovak_qwertz"/>
-    <keyboard-layout android:label="@string/keyboard_layout_portuguese_brazil_abnt2" android:name="keyboard_layout_portuguese_brazil_abnt2" android:keyboardLayout="@raw/keyboard_layout_portuguese_brazil_abnt2"/>
 </keyboard-layouts>
