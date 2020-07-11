@@ -24,6 +24,7 @@ Tested layouts:
 * Jawi Phonetic QWERTY
 * Romanian Programmers
 * Romanian Standard
+* Swedish Dvorak (Svorak A1)
 
 Experimental - not tested:
 * Canadian Multilingual Standard
