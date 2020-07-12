@@ -9,7 +9,7 @@ Tested layouts:
 * Armenian Phonetic
 * Armenian Typewriter
 * Azeri Cyrillic
-* Bangla Jatiya [<sup>1</sup>](#note1)
+* Bangla Jatiya [<sup id="a1">1</sup>](#note1)
 * Bashkir
 * Belarusian
 * Belgian (Comma)
@@ -21,14 +21,14 @@ Tested layouts:
 * Czech (QWERTZ)
 * Divehi Phonetic
 * Dutch
-* Hindi Traditional INSCRIPT <sup id="a1">[<sup>1</sup>](#note1)</sup>
+* Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
 
 Experimental - not tested:
-Azeri Latin
+* Azeri Latin
 * Arabic 102 AZERTY [<sup>1</sup>](#note1)
 * Assamese INSCRIPT [<sup>1</sup>](#note1)
 * Bengali [<sup>1</sup>](#note1)
