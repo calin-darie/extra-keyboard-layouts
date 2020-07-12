@@ -118,6 +118,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_belgian_period" android:name="keyboard_layout_belgian_period" android:keyboardLayout="@raw/keyboard_layout_belgian_period"/>
     <keyboard-layout android:label="@string/keyboard_layout_serbian_latin" android:name="keyboard_layout_serbian_latin" android:keyboardLayout="@raw/keyboard_layout_serbian_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_azeri_cyrillic" android:name="keyboard_layout_azeri_cyrillic" android:keyboardLayout="@raw/keyboard_layout_azeri_cyrillic"/>
+    <keyboard-layout android:label="@string/keyboard_layout_swedish_dvorak_a1" android:name="keyboard_layout_swedish_dvorak_a1" android:keyboardLayout="@raw/keyboard_layout_swedish_dvorak_a1"/>
     <keyboard-layout android:label="@string/keyboard_layout_swedish_with_sami" android:name="keyboard_layout_swedish_with_sami" android:keyboardLayout="@raw/keyboard_layout_swedish_with_sami"/>
     <keyboard-layout android:label="@string/keyboard_layout_uzbek_cyrillic" android:name="keyboard_layout_uzbek_cyrillic" android:keyboardLayout="@raw/keyboard_layout_uzbek_cyrillic"/>
     <keyboard-layout android:label="@string/keyboard_layout_mongolian_mongolian_script" android:name="keyboard_layout_mongolian_mongolian_script" android:keyboardLayout="@raw/keyboard_layout_mongolian_mongolian_script"/>
