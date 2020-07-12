@@ -67,6 +67,7 @@ Experimental - not tested:
 * Kazakh
 * Korean
 * Kyrgyz Cyrillic
+* Lao
 * Latin American
 * Latvian (QWERTY)
 * Lisu Basic
@@ -82,9 +83,11 @@ Experimental - not tested:
 * Maltese 47-Key
 * Maltese 48-Key
 * Maori
+* Marathi
 * Mongolian (Mongolian Script)
 * Mongolian Cyrillic
 * Myanmar
+* Nepali
 * New Tai Lue
 * Norwegian with Sami
 * N’Ko
