@@ -64,10 +64,9 @@ Experimental - not tested:
 * Kazakh
 * Khmer [<sup>1</sup>](#note1)
 * Khmer Nida [<sup>1</sup>](#note1)
-* Kazakh
 * Korean
 * Kyrgyz Cyrillic
-* Lao
+* Lao [<sup>1</sup>](#note1)
 * Latin American
 * Latvian (QWERTY)
 * Lisu Basic
@@ -80,10 +79,8 @@ Experimental - not tested:
 * Malayalam [<sup>1</sup>](#note1)
 * Maltese 47-Key
 * Maltese 48-Key
-* Maltese 47-Key
-* Maltese 48-Key
 * Maori
-* Marathi
+* Marathi [<sup>1</sup>](#note1)
 * Mongolian (Mongolian Script)
 * Mongolian Cyrillic
 * Myanmar
@@ -140,7 +137,7 @@ Experimental - not tested:
 * Wolof
 
 
-<sup><b id="note1">1</b></sup> For some of the layouts, combo key ligatures that on other OSs can be typed by shift+numbers are not directly supported. Instead, you'll have to type the components individually. 
+<sup id="note1">**1**</sup> For some of the layouts, combo key ligatures that on other OSs can be typed by shift+numbers are not directly supported. Instead, you'll have to type the components individually. 
 
 For Hindi for example on a QWERTY keyboard, instead of shift + 3 you have to type D+J
 * D J ्र 
