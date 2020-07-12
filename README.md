@@ -9,7 +9,7 @@ Tested layouts:
 * Armenian Phonetic
 * Armenian Typewriter
 * Azeri Cyrillic
-* Bangla Jatiya [1](#note1)
+* Bangla Jatiya [<sup>1</sup>](#note1)
 * Bashkir
 * Belarusian
 * Belgian (Comma)
@@ -21,7 +21,7 @@ Tested layouts:
 * Czech (QWERTZ)
 * Divehi Phonetic
 * Dutch
-* Hindi Traditional INSCRIPT <sup id="a1">[1](#note1)</sup>
+* Hindi Traditional INSCRIPT <sup id="a1">[<sup>1</sup>](#note1)</sup>
 * Jawi Phonetic QWERTY
 * Romanian Programmers
 * Romanian Standard
@@ -29,13 +29,13 @@ Tested layouts:
 
 Experimental - not tested:
 Azeri Latin
-* Arabic 102 AZERTY [1](#note1)
-* Assamese INSCRIPT [1](#note1)
-* Bengali [1](#note1)
-* Bengali INSCRIPT [1](#note1)
+* Arabic 102 AZERTY [<sup>1</sup>](#note1)
+* Assamese INSCRIPT [<sup>1</sup>](#note1)
+* Bengali [<sup>1</sup>](#note1)
+* Bengali INSCRIPT [<sup>1</sup>](#note1)
 * Bulgarian Typewriter
 * Canadian Multilingual Standard
-* Cherokee nation [1](#note1)
+* Cherokee nation [<sup>1</sup>](#note1)
 * Czech (QWERTY)
 * Czech Programmers
 * Divehi Typewriter
@@ -51,7 +51,7 @@ Azeri Latin
 * Greek (319) Latin
 * Greek Latin
 * Greenlandic
-* Gujarati [1](#note1)
+* Gujarati [<sup>1</sup>](#note1)
 * Hausa
 * Hawaiian
 * Hebrew (Standard)
@@ -59,11 +59,11 @@ Azeri Latin
 * Inuktitut Latin
 * Irish
 * Italian (142)
-* Jawi SIRIM [1](#note1)
-* Kannada [1](#note1)
+* Jawi SIRIM [<sup>1</sup>](#note1)
+* Kannada [<sup>1</sup>](#note1)
 * Kazakh
-* Khmer [1](#note1)
-* Khmer Nida [1](#note1)
+* Khmer [<sup>1</sup>](#note1)
+* Khmer Nida [<sup>1</sup>](#note1)
 * Kazakh
 * Korean
 * Kyrgyz Cyrillic
@@ -76,7 +76,7 @@ Azeri Latin
 * Luxembourgish
 * Macedonian (FYROM)
 * Macedonian (FYROM) - Standard
-* Malayalam [1](#note1)
+* Malayalam [<sup>1</sup>](#note1)
 * Maltese 47-Key
 * Maltese 48-Key
 * Maltese 47-Key
@@ -88,15 +88,15 @@ Azeri Latin
 * New Tai Lue
 * Norwegian with Sami
 * N’Ko
-* Odia [1](#note1)
+* Odia [<sup>1</sup>](#note1)
 * Ogham
 * Pashto (Afghanistan)
-* Persian standard [1](#note1)
-* Phags Pa [1](#note1)
+* Persian standard [<sup>1</sup>](#note1)
+* Phags Pa [<sup>1</sup>](#note1)
 * Polish (Programmers)
-* Punjabi [1](#note1)
+* Punjabi [<sup>1</sup>](#note1)
 * Russian (Typewriter)
-* Sakha [1](#note1)
+* Sakha [<sup>1</sup>](#note1)
 * Sami Extended Finland-Sweden
 * Sami Extended Norway
 * Scottish Gaelic
@@ -104,7 +104,7 @@ Azeri Latin
 * Serbian (Latin)
 * Sesotho sa Leboa
 * Setswana
-* Sinhala [1](#note1)
+* Sinhala [<sup>1</sup>](#note1)
 * Slovak (QWERTY)
 * Slovak (QWERTZ)
 * Sorbian Extended
@@ -114,15 +114,15 @@ Azeri Latin
 * Syriac
 * Syriac Phonetic
 * Tajik
-* Tamil [1](#note1)
+* Tamil [<sup>1</sup>](#note1)
 * Tatar
-* Telugu [1](#note1)
+* Telugu [<sup>1</sup>](#note1)
 * Thai Kedmanee
 * Thai Kedmanee (non-ShiftLock)
 * Thai Pattachote
 * Thai Pattachote (non-ShiftLock)
-* Tifinagh basic [1](#note1)
-* Tifinagh extended [1](#note1)
+* Tifinagh basic [<sup>1</sup>](#note1)
+* Tifinagh extended [<sup>1</sup>](#note1)
 * Turkish F
 * Turkish Q
 * Turkmen
@@ -131,13 +131,13 @@ Azeri Latin
 * United States-Dvorak for left hand
 * United States-Dvorak for right hand
 * Urdu
-* Uyghur [1](#note1)
+* Uyghur [<sup>1</sup>](#note1)
 * Uzbek Cyrillic
 * Vietnamese
 * Wolof
 
 
-<b id="note1">1</b> For some of the layouts, combo key ligatures that on other OSs can be typed by shift+numbers are not directly supported. Instead, you'll have to type the components individually. 
+<sup><b id="note1">1</b></sup> For some of the layouts, combo key ligatures that on other OSs can be typed by shift+numbers are not directly supported. Instead, you'll have to type the components individually. 
 
 For Hindi for example on a QWERTY keyboard, instead of shift + 3 you have to type D+J
 * D J ्र 
@@ -154,12 +154,12 @@ For Jawi SIRIM, the B key does not type anything. and you should be able to repr
 
 
 For Lao
-A H => LAO VOWEL SIGN MAI KAN + LAO TONE MAI THO
-B H =>  LAO VOWEL SIGN Y + LAO TONE MAI THO
-N H => LAO VOWEL SIGN YY + LAO TONE MAI THO
-Q H => LAO VOWEL SIGN MAI KON + LAO TONE MAI THO
-Y H => LAO VOWEL SIGN II + LAO TONE MAI THO
-U H  => LAO VOWEL SIGN I + LAO TONE MAI THO
-= J  => LAO NIGGAHITA + LAO TONE MAI EK
-s^ => LAO LETTER HO SUNG + LAO SEMIVOWEL SIGN LO
+* A H => LAO VOWEL SIGN MAI KAN + LAO TONE MAI THO
+* B H =>  LAO VOWEL SIGN Y + LAO TONE MAI THO
+* N H => LAO VOWEL SIGN YY + LAO TONE MAI THO
+* Q H => LAO VOWEL SIGN MAI KON + LAO TONE MAI THO
+* Y H => LAO VOWEL SIGN II + LAO TONE MAI THO
+* U H  => LAO VOWEL SIGN I + LAO TONE MAI THO
+* = J  => LAO NIGGAHITA + LAO TONE MAI EK
+* s^ => LAO LETTER HO SUNG + LAO SEMIVOWEL SIGN LO
 [↩](#a1)
