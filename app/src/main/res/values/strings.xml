@@ -132,4 +132,5 @@
 	<string name="keyboard_layout_jawi_sirim">Jawi SIRIM</string>
 	<string name="keyboard_layout_jawi_phonetic_qwerty">Jawi Phonetic (QWERTY)</string>
 	<string name="keyboard_layout_slovak_qwertz">Slovak QWERTZ</string>
+	<string name="keyboard_layout_abc">ABC - Latin, alphabetical order</string>	
 </resources>
