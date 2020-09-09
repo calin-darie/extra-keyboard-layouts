@@ -67,6 +67,7 @@ Experimental - not tested:
 * Korean
 * Kyrgyz Cyrillic
 * Lao [<sup>1</sup>](#note1)
+* Latin ABC
 * Latin American
 * Latvian (QWERTY)
 * Lisu Basic
@@ -96,6 +97,7 @@ Experimental - not tested:
 * Polish (Programmers)
 * Punjabi [<sup>1</sup>](#note1)
 * Russian (Typewriter)
+* Russian Phonetic YaWert
 * Sakha [<sup>1</sup>](#note1)
 * Sami Extended Finland-Sweden
 * Sami Extended Norway
