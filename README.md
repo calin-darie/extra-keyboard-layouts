@@ -23,11 +23,13 @@ Tested layouts:
 * Dutch
 * Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
+* Polish (Programmers)
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
 
 Experimental - not tested:
+* ABC - Latin alphabetical order
 * Azeri Latin
 * Arabic 102 AZERTY [<sup>1</sup>](#note1)
 * Assamese INSCRIPT [<sup>1</sup>](#note1)
@@ -67,7 +69,6 @@ Experimental - not tested:
 * Korean
 * Kyrgyz Cyrillic
 * Lao [<sup>1</sup>](#note1)
-* Latin ABC
 * Latin American
 * Latvian (QWERTY)
 * Lisu Basic
@@ -94,7 +95,6 @@ Experimental - not tested:
 * Pashto (Afghanistan)
 * Persian standard [<sup>1</sup>](#note1)
 * Phags Pa [<sup>1</sup>](#note1)
-* Polish (Programmers)
 * Punjabi [<sup>1</sup>](#note1)
 * Russian (Typewriter)
 * Russian Phonetic YaWert
