@@ -26,6 +26,8 @@ Tested layouts:
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
+* Thai Kedmanee
+* Thai TIS 820-2538
 
 Experimental - not tested:
 * Azeri Latin
@@ -117,7 +119,6 @@ Experimental - not tested:
 * Tamil [<sup>1</sup>](#note1)
 * Tatar
 * Telugu [<sup>1</sup>](#note1)
-* Thai Kedmanee
 * Thai Kedmanee (non-ShiftLock)
 * Thai Pattachote
 * Thai Pattachote (non-ShiftLock)

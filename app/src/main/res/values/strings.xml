@@ -133,5 +133,6 @@
 	<string name="keyboard_layout_jawi_phonetic_qwerty">Jawi Phonetic (QWERTY)</string>
 	<string name="keyboard_layout_slovak_qwertz">Slovak QWERTZ</string>
 	<string name="keyboard_layout_russian_phonetic_yawert_winrus_com">Russian Phonetic YaWert - WinRus.com</string>
+	<string name="keyboard_layout_thai_tis_820_2538">Thai TIS 820-2538</string>	
 	<string name="keyboard_layout_abc">ABC - Latin, alphabetical order</string>	
 </resources>
