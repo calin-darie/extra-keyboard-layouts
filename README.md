@@ -23,6 +23,7 @@ Tested layouts:
 * Dutch
 * Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
+* Polish (Programmers)
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
@@ -30,6 +31,7 @@ Tested layouts:
 * Thai TIS 820-2538
 
 Experimental - not tested:
+* ABC - Latin alphabetical order
 * Azeri Latin
 * Arabic 102 AZERTY [<sup>1</sup>](#note1)
 * Assamese INSCRIPT [<sup>1</sup>](#note1)
@@ -95,9 +97,9 @@ Experimental - not tested:
 * Pashto (Afghanistan)
 * Persian standard [<sup>1</sup>](#note1)
 * Phags Pa [<sup>1</sup>](#note1)
-* Polish (Programmers)
 * Punjabi [<sup>1</sup>](#note1)
 * Russian (Typewriter)
+* Russian Phonetic YaWert
 * Sakha [<sup>1</sup>](#note1)
 * Sami Extended Finland-Sweden
 * Sami Extended Norway
