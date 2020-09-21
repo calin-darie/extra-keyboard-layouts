@@ -1,0 +1,256 @@
+# License: MIT
+
+# Halmak https://github.com/MadRabbit/halmak
+
+type OVERLAY
+
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 16 W
+map key 17 L
+map key 18 R
+map key 19 B
+map key 20 F # Z
+map key 21 SEMICOLON
+map key 22 Q
+map key 23 U
+map key 24 D
+map key 25 J
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 H # S
+map key 31 S # H
+map key 32 N
+map key 33 T
+map key 34 COMMA
+map key 35 PERIOD
+map key 36 A
+map key 37 E
+map key 38 O
+map key 39 I
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 43 BACKSLASH
+map key 44 Z # F
+map key 45 X # M
+map key 46 C # V
+map key 47 V # C
+map key 48 SLASH
+map key 49 G
+map key 50 P
+map key 51 M # X
+map key 52 K
+map key 53 Y
+map key 57 SPACE
+map key 86 BACKSLASH
+map key 95 NUMPAD_COMMA
+
+# *B*reve
+key B {
+  base: 'b'
+  capslock, shift: 'B'  
+  capslock+shift: 'b'
+  ralt, shift+ralt: '\u0306'
+}
+
+# cedilla
+key COMMA {
+  base: ','
+  shift: '<'
+  ralt, shift+ralt: '\u0327'
+}
+
+# *D*iaeresis
+key D {
+  base: 'd'
+  capslock, shift: 'D'
+  capslock+shift: 'd'
+  ralt, shift+ralt: '\u0308'
+}
+
+# acu*T*e and double acute
+key T {
+  base: 't'
+  capslock, shift: 'T'
+  capslock+shift: 't'
+  ralt: '\u0301'
+  ralt+shift: '\u030B'
+}
+
+# g*R*ave
+key R {
+  base: 'r'
+  capslock, shift: 'R'
+  capslock+shift: 'r'
+  ralt, ralt+shift: '\u0300'
+}
+
+# *H*áček (caron)
+key S {
+  base: 'h'
+  capslock, shift: 'H'
+  capslock+shift: 'h'
+  ralt, ralt+shift: '\u030C'
+}
+
+# o*G*onek
+key G {
+  base: 'g'
+  capslock, shift: 'G'
+  capslock+shift    : 'g'
+  ralt, ralt+shift: '\u0328'
+}
+
+# *M*acron
+# maintain ctrl + X muscle memory
+key X {
+  base: 'm'
+  capslock, shift: 'M'
+  capslock+shift: 'm'
+  ralt, ralt+shift: '\u0304'
+}
+
+# tilde
+key GRAVE {
+  base: '`'
+  shift: '~'
+  ralt, ralt+shift: '\u0303'
+}
+
+# ring
+key K {
+  base: 'k'
+  capslock, shift: 'K'
+  capslock+shift: 'k'
+  ralt, ralt+shift: '\u030A'
+}
+
+# dot
+key PERIOD {
+  base: '.'
+  shift: '>'
+  ralt, ralt+shift: '\u0307'
+}
+
+# circumfle*X*
+key M {
+  base: 'x'
+  capslock, shift: 'X'
+  ralt, ralt+shift: '\u0302'
+  capslock+shift: 'x'
+}
+
+key Q {
+  base: 'q'
+  capslock, shift: 'Q'
+  capslock+shift: 'q'
+}
+
+key W {
+  base: 'w'
+  capslock, shift: 'W'
+  capslock+shift: 'w'
+}
+
+# maintain ctrl + z (undo) muscle memory
+key Z {
+  base: 'f'
+  capslock, shift: 'F'
+  capslock+shift: 'f'
+}
+
+key P {
+  base: 'p'
+  capslock, shift: 'P'
+  capslock+shift: 'p'
+}
+
+key J {
+  base: 'j'
+  capslock, shift: 'J'
+  capslock+shift: 'j'
+}
+
+key L {
+  base: 'l'
+  capslock, shift: 'L'
+  capslock+shift: 'l'
+}
+
+key U {
+  base: 'u'
+  capslock, shift: 'U'
+  capslock+shift: 'u'
+}
+
+key Y {
+  base: 'y'
+  capslock, shift: 'Y'
+  capslock+shift: 'y'
+}
+
+key A {
+  base: 'a'
+  capslock, shift: 'A'
+  capslock+shift: 'a'
+}
+
+key H {
+  base: 's'
+  capslock, shift: 'S'
+  capslock+shift: 's'
+}
+
+key N {
+  base: 'n'
+  capslock, shift: 'N'
+  capslock+shift: 'n'
+}
+
+key E {
+  base: 'e'
+  capslock, shift: 'E'
+  capslock+shift: 'e'
+}
+
+key I {
+  base: 'i'
+  capslock, shift: 'I'
+  capslock+shift: 'i'
+}
+
+key O {
+  base: 'o'
+  capslock, shift: 'O'
+  capslock+shift: 'o'
+}
+
+key F {
+  base: 'z'
+  capslock, shift: 'Z'
+  capslock+shift: 'z'
+}
+
+# maintain ctrl + v muscle memory
+key V {
+  base: 'c'
+  capslock, shift: 'C'
+  capslock+shift: 'c'
+}
+
+# maintain ctrl + c muscle memory
+key C {
+  base: 'v'
+  capslock, shift: 'V'
+  capslock+shift: 'v'
+}

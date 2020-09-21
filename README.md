@@ -20,9 +20,11 @@ Tested layouts:
 * Bulgarian (Phonetic Traditional)
 * Bulgarian (Phonetic)
 * Canadian French
+* Colemak
 * Czech (QWERTZ)
 * Divehi Phonetic
 * Dutch
+* Halmak
 * Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
 * Polish (Programmers)

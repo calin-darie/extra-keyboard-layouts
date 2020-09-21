@@ -133,4 +133,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_russian_phonetic_yawert_winrus_com" android:name="keyboard_layout_russian_phonetic_yawert_winrus_com" android:keyboardLayout="@raw/keyboard_layout_russian_phonetic_yawert_winrus_com"/>
     <keyboard-layout android:label="@string/keyboard_layout_thai_tis_820_2538" android:name="keyboard_layout_thai_tis_820_2538" android:keyboardLayout="@raw/keyboard_layout_thai_tis_820_2538"/>
     <keyboard-layout android:label="@string/keyboard_layout_abc" android:name="keyboard_layout_abc" android:keyboardLayout="@raw/keyboard_layout_abc"/>
+    <keyboard-layout android:label="@string/keyboard_layout_colemak" android:name="keyboard_layout_colemak" android:keyboardLayout="@raw/keyboard_layout_colemak"/>
+    <keyboard-layout android:label="@string/keyboard_layout_colemak_mod_dh" android:name="keyboard_layout_colemak_mod_dh" android:keyboardLayout="@raw/keyboard_layout_colemak_mod_dh"/>
+    <keyboard-layout android:label="@string/keyboard_layout_halmak" android:name="keyboard_layout_halmak" android:keyboardLayout="@raw/keyboard_layout_halmak"/>
 </keyboard-layouts>
