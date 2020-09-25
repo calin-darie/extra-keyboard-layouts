@@ -136,5 +136,6 @@
     <keyboard-layout android:label="@string/keyboard_layout_colemak" android:name="keyboard_layout_colemak" android:keyboardLayout="@raw/keyboard_layout_colemak"/>
     <keyboard-layout android:label="@string/keyboard_layout_colemak_mod_dh" android:name="keyboard_layout_colemak_mod_dh" android:keyboardLayout="@raw/keyboard_layout_colemak_mod_dh"/>
     <keyboard-layout android:label="@string/keyboard_layout_halmak" android:name="keyboard_layout_halmak" android:keyboardLayout="@raw/keyboard_layout_halmak"/>
-    <keyboard-layout android:label="@string/keyboard_layout_kurdish_sorani" android:name="keyboard_layout_kurdish_sorani" android:keyboardLayout="@raw/keyboard_layout_kurdish_sorani"/>
+    <keyboard-layout android:label="@string/keyboard_layout_kurdish_sorani_hejar" android:name="keyboard_layout_kurdish_sorani_hejar" android:keyboardLayout="@raw/keyboard_layout_kurdish_sorani_hejar"/>
+    <keyboard-layout android:label="@string/keyboard_layout_kurdish_krg" android:name="keyboard_layout_kurdish_krg" android:keyboardLayout="@raw/keyboard_layout_kurdish_krg"/>
 </keyboard-layouts>

@@ -74,6 +74,8 @@ Experimental - not tested:
 * Khmer Nida [<sup>1</sup>](#note1)
 * Korean
 * Kyrgyz Cyrillic
+* Kurdish Hejar https://klpp.github.io/hejar.html [<sup>1</sup>](#note1)
+* Kurdish KRG http://unicode.ekrg.org/download/UnifiedKeyboardProject_enGB.pdf [<sup>1</sup>](#note1)
 * Lao [<sup>1</sup>](#note1)
 * Latin American
 * Latvian (QWERTY)
@@ -170,3 +172,8 @@ For Lao
 * = J  => LAO NIGGAHITA + LAO TONE MAI EK
 * s^ => LAO LETTER HO SUNG + LAO SEMIVOWEL SIGN LO
 [↩](#a1)
+
+
+For Kurdish KRG:
+* وو <= و و    you have to press the key twice, no shift
+* shift H => ZERO WIDTH NON-JOINER, to be used in combination with ھ 

@@ -138,5 +138,6 @@
 	<string name="keyboard_layout_colemak">Colemak</string>	
 	<string name="keyboard_layout_colemak_mod_dh">Colemak Mod-DH</string>	
 	<string name="keyboard_layout_halmak">Halmak</string>	
-	<string name="keyboard_layout_kurdish_sorani">Kurdish Sorani</string>	
+	<string name="keyboard_layout_kurdish_sorani_hejar">Kurdish Sorani Hejar</string>	
+	<string name="keyboard_layout_kurdish_krg">Kurdish KRG</string>	
 </resources>
