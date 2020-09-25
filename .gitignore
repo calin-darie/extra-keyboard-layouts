@@ -17,3 +17,4 @@ app/release/
 *.jks
 *.keystore
 *.pepk
+.vs/slnx.sqlite
