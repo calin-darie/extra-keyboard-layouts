@@ -247,7 +247,7 @@ key K {
 key L {
   label: '\u0644'
   base:  '\u0644'
-  shift: '\u00b5'
+  shift: '\u06b5'
 }
 
 key SEMICOLON {
