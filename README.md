@@ -177,3 +177,5 @@ For Lao
 For Kurdish KRG:
 * وو <= و و    you have to press the key twice, no shift
 * shift H => ZERO WIDTH NON-JOINER, to be used in combination with ھ 
+
+If you found this useful, you may [buy me a drink](https://paypal.me/CalinDarie?locale.x=en_US)
