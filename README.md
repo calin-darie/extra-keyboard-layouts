@@ -95,6 +95,7 @@ Experimental - not tested:
 * Mongolian Cyrillic
 * Myanmar
 * Nepali
+* Neo 2 [<sup>2</sup>](#note2)
 * New Tai Lue
 * Norwegian with Sami
 * N’Ko
@@ -110,6 +111,7 @@ Experimental - not tested:
 * Sami Extended Finland-Sweden
 * Sami Extended Norway
 * Scottish Gaelic
+* Santali (Sarjom baha - phonetic Ol' Chiki script)
 * Serbian (Cyrillic)
 * Serbian (Latin)
 * Sesotho sa Leboa
@@ -177,5 +179,15 @@ For Lao
 For Kurdish KRG:
 * وو <= و و    you have to press the key twice, no shift
 * shift H => ZERO WIDTH NON-JOINER, to be used in combination with ھ 
+
+<sup id="note2">**2**</sup> Neo 2's 4th level is severely crippled while not locked because in order to access level  4 you need to press the right alt key, and the right alt key in combination with level 4 directions results in unexpected behavior. So try level 4 navigation only by locking. 
+
+Also, locking isn't working as you're used to: press the start / windows key to lock level 4. Press scroll lock to lock level 2.
+
+The following features are not available in android:
+* compose (triggered by TAB in level 3)
+* undo functionality (triggered by Z in level 4)
+* rotate key
+
 
 If you found this useful, you may [buy me a drink](https://paypal.me/CalinDarie?locale.x=en_US)
