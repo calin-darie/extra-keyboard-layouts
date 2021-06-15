@@ -52,14 +52,17 @@ map key 53 J
 map key 69 PLUS
 map key 83 NUMPAD_COMMA
 
-# todo rshift => rotate? dead turning?
 key GRAVE {
   label: '\u0302'
   base: '\u0302'
   lshift, capslock: '\u030c'
   capslock+lshift: '\u0302'
-  rshift: none
   ralt, scrolllock: '\u0307'
+  scrolllock+ralt: '\u0302'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u030c'
+  scrolllock+ralt+capslock+lshift: '\u0302'
+  rshift: none
+  # todo rshift => rotate? dead turning?
   rshift+lshift: '\u0309'
   ralt+rshift: '\u0323'
 }
@@ -69,8 +72,11 @@ key 1 {
   base: '1'
   lshift, capslock: '\u00b0'
   capslock+lshift: '1'
-  rshift: '\u00b9'
   ralt, scrolllock: '\u1043'
+  scrolllock+ralt: '1'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00b0'
+  scrolllock+ralt+capslock+lshift: '1'
+  rshift: '\u00b9'
   rshift+lshift: '\u2081'
   ralt+rshift: '\u00ac'
 }
@@ -80,8 +86,11 @@ key 2 {
   base: '2'
   lshift, capslock: '\u00a7'
   capslock+lshift: '2'
-  rshift: '\u00b2'
   ralt, scrolllock: '\u1052'
+  scrolllock+ralt: '2'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00a7'
+  scrolllock+ralt+capslock+lshift: '2'
+  rshift: '\u00b2'
   rshift+lshift: '\u2082'
   ralt+rshift: '\u2228'
 }
@@ -91,8 +100,11 @@ key 3 {
   base: '3'
   lshift, capslock: '\u2113'
   capslock+lshift: '3'
-  rshift: '\u00b3'
   ralt, scrolllock: '\u2116'
+  scrolllock+ralt: '3'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2113'
+  scrolllock+ralt+capslock+lshift: '3'
+  rshift: '\u00b3'
   rshift+lshift: '\u2083'
   ralt+rshift: '\u2227'
 }
@@ -102,8 +114,11 @@ key 4 {
   base: '4'
   lshift, capslock: '\u00bb'
   capslock+lshift: '4'
-  rshift: '\u203a'
   ralt, scrolllock: none
+  scrolllock+ralt: '4'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00bb'
+  scrolllock+ralt+capslock+lshift: '4'
+  rshift: '\u203a'
   rshift+lshift: '\u2640'
   ralt+rshift: '\u22a5'
 }
@@ -113,8 +128,11 @@ key 5 {
   base: '5'
   lshift, capslock: '\u00ab'
   capslock+lshift: '5'
-  rshift: '\u2039'
   ralt, scrolllock: '\u00b7'
+  scrolllock+ralt: '5'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00ab'
+  scrolllock+ralt+capslock+lshift: '5'
+  rshift: '\u2039'
   rshift+lshift: '\u2642'
   ralt+rshift: '\u2221'
 }
@@ -124,8 +142,11 @@ key 6 {
   base: '6'
   lshift, capslock: '\u0024'
   capslock+lshift: '6'
-  rshift: '\u00a2'
   ralt, scrolllock: '\u00a3'
+  scrolllock+ralt: '6'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u0024'
+  scrolllock+ralt+capslock+lshift: '6'
+  rshift: '\u00a2'
   rshift+lshift: '\u26a5'
   ralt+rshift: '\u2225'
 }
@@ -135,8 +156,11 @@ key 7 {
   base: '7'
   lshift, capslock: '\u20ac'
   capslock+lshift: '7'
-  rshift: '\u00a5'
   ralt, scrolllock: '\u00a4'
+  scrolllock+ralt: '7'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u20ac'
+  scrolllock+ralt+capslock+lshift: '7'
+  rshift: '\u00a5'
   rshift+lshift: '\u03f0'
   ralt+rshift: '\u2192'
 }
@@ -146,8 +170,11 @@ key 8 {
   base: '8'
   lshift, capslock: '\u201e'
   capslock+lshift: '8'
-  rshift: '\u201a'
   ralt, scrolllock: fallback TAB
+  scrolllock+ralt: '8'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u201e'
+  scrolllock+ralt+capslock+lshift: '8'
+  rshift: '\u201a'
   rshift+lshift: '\u27e8'
   ralt+rshift: '\u221e'
 }
@@ -157,8 +184,11 @@ key 9 {
   base: '9'
   lshift, capslock: '\u201c'
   capslock+lshift: '9'
-  rshift: '\u2018'
   ralt, scrolllock: '/'
+  scrolllock+ralt: '9'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u201c'
+  scrolllock+ralt+capslock+lshift: '9'
+  rshift: '\u2018'
   rshift+lshift: '\u27e9'
   ralt+rshift: '\u221d'
 }
@@ -168,8 +198,11 @@ key 0 {
   base: '0'
   lshift, capslock: '\u201d'
   capslock+lshift: '0'
-  rshift: '\u2019'
   ralt, scrolllock: '*'
+  scrolllock+ralt: '0'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u201d'
+  scrolllock+ralt+capslock+lshift: '0'
+  rshift: '\u2019'
   rshift+lshift: '\u2080'
   ralt+rshift: '\u2205'
 }
@@ -179,8 +212,11 @@ key MINUS {
   base: '-'
   lshift, capslock: '\u2014'
   capslock+lshift: '-'
-  rshift: none
   ralt, scrolllock: '-'
+  scrolllock+ralt: '-'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2014'
+  scrolllock+ralt+capslock+lshift: '-'
+  rshift: none
   rshift+lshift: '-'
   ralt+rshift: '\u254c'
 }
@@ -190,8 +226,11 @@ key EQUALS {
   base: '\u0300'
   lshift, capslock: '\u0327'
   capslock+lshift: '\u0300'
-  rshift: '\u030a'
   ralt, scrolllock: '\u0308'
+  scrolllock+ralt: '\u0300'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u0327'
+  scrolllock+ralt+capslock+lshift: '\u0300'
+  rshift: '\u030a'
   rshift+lshift: '\u0314'
   ralt+rshift: '\u00af'
 }
@@ -201,8 +240,11 @@ key X {
   base: 'x'
   lshift, capslock: 'X'
   capslock+lshift: 'x'
-  rshift: '\u2026'
   ralt, scrolllock: fallback PAGE_UP
+  scrolllock+ralt: 'x'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'X'
+  scrolllock+ralt+capslock+lshift: 'x'
+  rshift: '\u2026'
   rshift+lshift: '\u03be'
   ralt+rshift: '\u039e'
 }
@@ -212,8 +254,11 @@ key V {
   base: 'v'
   lshift, capslock: 'V'
   capslock+lshift: 'v'
-  rshift: '_'
   ralt, scrolllock: fallback DEL
+  scrolllock+ralt: 'v'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'V'
+  scrolllock+ralt+capslock+lshift: 'v'
+  rshift: '_'
   rshift+lshift: none
   ralt+rshift: '\u221a'
 }
@@ -223,8 +268,11 @@ key L {
   base: 'l'
   lshift, capslock: 'L'
   capslock+lshift: 'l'
-  rshift: '['
   ralt, scrolllock: fallback DPAD_UP
+  scrolllock+ralt: 'l'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'L'
+  scrolllock+ralt+capslock+lshift: 'l'
+  rshift: '['
   rshift+lshift: '\u03bb'
   ralt+rshift: '\u039b'
 }
@@ -234,8 +282,11 @@ key C {
   base: 'c'
   lshift, capslock: 'C'
   capslock+lshift: 'c'
-  rshift: ']'
   ralt, scrolllock: fallback FORWARD_DEL
+  scrolllock+ralt: 'c'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'C'
+  scrolllock+ralt+capslock+lshift: 'c'
+  rshift: ']'
   rshift+lshift: '\u03c7'
   ralt+rshift: '\u2102'
 }
@@ -245,8 +296,11 @@ key W {
   base: 'w'
   lshift, capslock: 'w'
   capslock+lshift: 'w'
-  rshift: '^'
   ralt, scrolllock: fallback PAGE_DOWN
+  scrolllock+ralt: 'w'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'w'
+  scrolllock+ralt+capslock+lshift: 'w'
+  rshift: '^'
   rshift+lshift: '\u03c9'
   ralt+rshift: '\u03a9'
 }
@@ -256,8 +310,11 @@ key K {
   base: 'k'
   lshift, capslock: 'K'
   capslock+lshift: 'k'
-  rshift: '!'
   ralt, scrolllock: '\u00a1'
+  scrolllock+ralt: 'k'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'K'
+  scrolllock+ralt+capslock+lshift: 'k'
+  rshift: '!'
   rshift+lshift: '\u03ba'
   ralt+rshift: '\u00d7'
 }
@@ -267,8 +324,11 @@ key H {
   base: 'h'
   lshift, capslock: 'H'
   capslock+lshift: 'h'
-  rshift: '<'
   ralt, scrolllock: '7'
+  scrolllock+ralt: 'h'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'H'
+  scrolllock+ralt+capslock+lshift: 'h'
+  rshift: '<'
   rshift+lshift: '\u03c8'
   ralt+rshift: '\u03a8'
 }
@@ -277,8 +337,11 @@ key G {
   base: 'g'
   lshift, capslock: 'G'
   capslock+lshift: 'g'
-  rshift: '>'
   ralt, scrolllock: '8'
+  scrolllock+ralt: 'g'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'G'
+  scrolllock+ralt+capslock+lshift: 'g'
+  rshift: '>'
   rshift+lshift: '\u03b3'
   ralt+rshift: '\u0393'
 }
@@ -288,8 +351,11 @@ key F {
   base: 'f'
   lshift, capslock: 'F'
   capslock+lshift: 'f'
-  rshift: '='
   ralt, scrolllock: '9'
+  scrolllock+ralt: 'f'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'F'
+  scrolllock+ralt+capslock+lshift: 'f'
+  rshift: '='
   rshift+lshift: '\u03c6'
   ralt+rshift: '\u03a6'
 }
@@ -299,8 +365,11 @@ key Q {
   base: 'q'
   lshift, capslock: 'Q'
   capslock+lshift: 'q'
-  rshift: '&'
   ralt, scrolllock: '+'
+  scrolllock+ralt: 'q'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'Q'
+  scrolllock+ralt+capslock+lshift: 'q'
+  rshift: '&'
   rshift+lshift: '\u03d5'
   ralt+rshift: '\u211a'
 }
@@ -310,8 +379,11 @@ key LEFT_BRACKET {
   base: '\u00df'
   lshift, capslock: '\u1e9e'
   capslock+lshift: '\u00df'
-  rshift: '\u017f'
   ralt, scrolllock: '\u2212'
+  scrolllock+ralt: '\u00df'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u1e9e'
+  scrolllock+ralt+capslock+lshift: '\u00df'
+  rshift: '\u017f'
   rshift+lshift: '\u03c2'
   ralt+rshift: '\u2218'
 }
@@ -321,8 +393,11 @@ key RIGHT_BRACKET {
   base: '\u0301'
   lshift, capslock: '\u0303'
   capslock+lshift: '\u0301'
-  rshift: '\u0338'
   ralt, scrolllock: '\u030b'
+  scrolllock+ralt: '\u0301'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u0303'
+  scrolllock+ralt+capslock+lshift: '\u0301'
+  rshift: '\u0338'
   rshift+lshift: '\u0313'
   ralt+rshift: '\u0306'
 }
@@ -333,8 +408,11 @@ key U {
   base: 'u'
   lshift, capslock: 'U'
   capslock+lshift: 'u'
-  rshift: '\u005C'
   ralt, scrolllock: fallback MOVE_HOME
+  scrolllock+ralt: 'u'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'U'
+  scrolllock+ralt+capslock+lshift: 'u'
+  rshift: '\u005C'
   rshift+lshift: none
   ralt+rshift: '\u2282'
 }
@@ -344,8 +422,11 @@ key I {
   base: 'i'
   lshift, capslock: 'I'
   capslock+lshift: 'i'
-  rshift: '/'
   ralt, scrolllock: fallback DPAD_LEFT
+  scrolllock+ralt: 'i'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'I'
+  scrolllock+ralt+capslock+lshift: 'i'
+  rshift: '/'
   rshift+lshift: '\u00b9'
   ralt+rshift: '\u222b'
 }
@@ -355,8 +436,11 @@ key A {
   base: 'a'
   lshift, capslock: 'A'
   capslock+lshift: 'a'
-  rshift: '{'
   ralt, scrolllock: fallback DPAD_DOWN
+  scrolllock+ralt: 'a'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'A'
+  scrolllock+ralt+capslock+lshift: 'a'
+  rshift: '{'
   rshift+lshift: '\u03b1'
   ralt+rshift: '\u2200'
 }
@@ -366,8 +450,11 @@ key E {
   base: 'e'
   lshift, capslock: 'E'
   capslock+lshift: 'e'
-  rshift: '}'
   ralt, scrolllock: fallback DPAD_RIGHT
+  scrolllock+ralt: 'e'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'E'
+  scrolllock+ralt+capslock+lshift: 'e'
+  rshift: '}'
   rshift+lshift: '\u03b5'
   ralt+rshift: '\u2203'
 }
@@ -377,8 +464,11 @@ key O {
   base: 'o'
   lshift, capslock: 'O'
   capslock+lshift: 'o'
-  rshift: '*'
   ralt, scrolllock: fallback MOVE_END
+  scrolllock+ralt: 'o'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'O'
+  scrolllock+ralt+capslock+lshift: 'o'
+  rshift: '*'
   rshift+lshift: '\u03bf'
   ralt+rshift: '\u2208'
 }
@@ -388,8 +478,11 @@ key S {
   base: 's'
   lshift, capslock: 'S'
   capslock+lshift: 's'
-  rshift: '?'
   ralt, scrolllock: '\u00bf'
+  scrolllock+ralt: 's'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'S'
+  scrolllock+ralt+capslock+lshift: 's'
+  rshift: '?'
   rshift+lshift: '\u03c3'
   ralt+rshift: '\u03a3'
 }
@@ -399,8 +492,11 @@ key N {
   base: 'n'
   lshift, capslock: 'N'
   capslock+lshift: 'n'
-  rshift: '('
   ralt, scrolllock: '4'
+  scrolllock+ralt: 'n'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'N'
+  scrolllock+ralt+capslock+lshift: 'n'
+  rshift: '('
   rshift+lshift: '\u03bd'
   ralt+rshift: '\u2115'
 }
@@ -410,8 +506,11 @@ key R {
   base: 'r'
   lshift, capslock: 'R'
   capslock+lshift: 'r'
-  rshift: ')'
   ralt, scrolllock: '5'
+  scrolllock+ralt: 'r'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'R'
+  scrolllock+ralt+capslock+lshift: 'r'
+  rshift: ')'
   rshift+lshift: '\u03c1'
   ralt+rshift: '\u211d'
 }
@@ -421,8 +520,11 @@ key T {
   base: 't'
   lshift, capslock: 'T'
   capslock+lshift: 't'
-  rshift: '-'
   ralt, scrolllock: '6'
+  scrolllock+ralt: 't'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'T'
+  scrolllock+ralt+capslock+lshift: 't'
+  rshift: '-'
   rshift+lshift: '\u03c4'
   ralt+rshift: '\u2202'
 }
@@ -432,8 +534,11 @@ key D {
   base: 'd'
   lshift, capslock: 'D'
   capslock+lshift: 'd'
-  rshift: ':'
   ralt, scrolllock: ','
+  scrolllock+ralt: 'd'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'D'
+  scrolllock+ralt+capslock+lshift: 'd'
+  rshift: ':'
   rshift+lshift: '\u03b4'
   ralt+rshift: '\u0394'
 }
@@ -443,8 +548,11 @@ key Y {
   base: 'y'
   lshift, capslock: 'Y'
   capslock+lshift: 'y'
-  rshift: '@'
   ralt, scrolllock: '.'
+  scrolllock+ralt: 'y'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'Y'
+  scrolllock+ralt+capslock+lshift: 'y'
+  rshift: '@'
   rshift+lshift: '\u03c5'
   ralt+rshift: '\u2207'
 }
@@ -454,8 +562,11 @@ key SEMICOLON {
   base: '\u00fc'
   lshift, capslock: '\u00dc'
   capslock+lshift: '\u00fc'
-  rshift: '#'
   ralt, scrolllock: fallback DEL
+  scrolllock+ralt: '\u00fc'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00dc'
+  scrolllock+ralt+capslock+lshift: '\u00fc'
+  rshift: '#'
   rshift+lshift: none
   ralt+rshift: '\u222a'
 }
@@ -465,8 +576,11 @@ key APOSTROPHE {
   base: '\u00f6'
   lshift, capslock: '\u00d6'
   capslock+lshift: '\u00f6'
-  rshift: '$'
   ralt, scrolllock: fallback TAB
+  scrolllock+ralt: '\u00f6'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00d6'
+  scrolllock+ralt+capslock+lshift: '\u00f6'
+  rshift: '$'
   rshift+lshift: '\u03f5'
   ralt+rshift: '\u2229'
 }
@@ -476,8 +590,11 @@ key BACKSLASH {
   base: '\u0034'
   lshift, capslock: '\u00c4'
   capslock+lshift: '\u00e4'
-  rshift: '|'
   ralt, scrolllock: fallback INSERT
+  scrolllock+ralt: '\u00e4'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u00c4'
+  scrolllock+ralt+capslock+lshift: '\u00e4'
+  rshift: '|'
   rshift+lshift: '\u03b7'
   ralt+rshift: '\u2135'
 }
@@ -487,8 +604,11 @@ key P {
   base: 'p'
   lshift, capslock: 'P'
   capslock+lshift: 'p'
-  rshift: '~'
   ralt, scrolllock: fallback ENTER
+  scrolllock+ralt: 'p'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'P'
+  scrolllock+ralt+capslock+lshift: 'p'
+  rshift: '~'
   rshift+lshift: '\u03c0'
   ralt+rshift: '\u03a0'
 }
@@ -509,8 +629,11 @@ key B {
   base: 'b'
   lshift, capslock: 'B'
   capslock+lshift: 'b'
-  rshift: '+'
   ralt, scrolllock: ':'
+  scrolllock+ralt: 'b'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'B'
+  scrolllock+ralt+capslock+lshift: 'b'
+  rshift: '+'
   rshift+lshift: '\u03b2'
   ralt+rshift: '\u21d0'
 }
@@ -520,8 +643,11 @@ key M {
   base: 'm'
   lshift, capslock: 'M'
   capslock+lshift: 'm'
-  rshift: '%'
   ralt, scrolllock: '1'
+  scrolllock+ralt: 'm'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'M'
+  scrolllock+ralt+capslock+lshift: 'm'
+  rshift: '%'
   rshift+lshift: '\u03bc'
   ralt+rshift: '\u21d4'
 }
@@ -531,8 +657,11 @@ key COMMA {
   base: ','
   lshift, capslock: '\u2013'
   capslock+lshift: ','
-  rshift: '"'
   ralt, scrolllock: '2'
+  scrolllock+ralt: ','
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2013'
+  scrolllock+ralt+capslock+lshift: ','
+  rshift: '"'
   rshift+lshift: '\u03f1'
   ralt+rshift: '\u21d2'
 }
@@ -542,8 +671,11 @@ key PERIOD {
   base: '.'
   lshift, capslock: '\u2022'
   capslock+lshift: '.'
-  rshift: '\''
   ralt, scrolllock: '3'
+  scrolllock+ralt: '.'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2022'
+  scrolllock+ralt+capslock+lshift: '.'
+  rshift: '\''
   rshift+lshift: '\u03d1'
   ralt+rshift: '\u21a6'
 }
@@ -553,8 +685,11 @@ key J {
   base: 'j'
   lshift, capslock: 'J'
   capslock+lshift: 'j'
-  rshift: ';'
   ralt, scrolllock: ';'
+  scrolllock+ralt: 'j'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'J'
+  scrolllock+ralt+capslock+lshift: 'j'
+  rshift: ';'
   rshift+lshift: '\u03b8'
   ralt+rshift: '\u0398'
 }
@@ -571,8 +706,8 @@ key SPACE {
 key PLUS {
   label: '\u21e5'
   base: fallback TAB
-  rshift: '='
   ralt, scrolllock: '\u2620'
+  rshift: '='
   rshift+lshift: '\u2248'
   ralt+rshift: '\u2261'
 }
@@ -580,8 +715,8 @@ key PLUS {
 key NUMPAD_DIVIDE {
   label: '/'
   base: '/'
-  rshift: '\u00f7'
   ralt, scrolllock: '\u2044'
+  rshift: '\u00f7'
   rshift+lshift: '\u2300'
   ralt+rshift: '\u2223'
 }
@@ -589,8 +724,8 @@ key NUMPAD_DIVIDE {
 key NUMPAD_MULTIPLY {
   label: '*'
   base: '*'
-  rshift: '\u00b7'
   ralt, scrolllock: '\u00d7'
+  rshift: '\u00b7'
   rshift+lshift: '\u2299'
   ralt+rshift: '\u2297'
 }
@@ -598,8 +733,8 @@ key NUMPAD_MULTIPLY {
 key NUMPAD_SUBTRACT {
   label: '-'
   base: '-'
-  rshift: '\u2212'
   ralt, scrolllock: '\u2216'
+  rshift: '\u2212'
   rshift+lshift: '\u2296'
   ralt+rshift: '\u2238'
 }
@@ -607,8 +742,8 @@ key NUMPAD_SUBTRACT {
 key NUMPAD_ADD {
   label: '+'
   base: '+'
-  rshift: '\u00b1'
   ralt, scrolllock: '\u2216'
+  rshift: '\u00b1'
   rshift+lshift: '\u2295'
   ralt+rshift: '\u2214'
 }
@@ -618,8 +753,11 @@ key NUMPAD_COMMA {
   base: ','
   lshift, capslock: '.'
   capslock+lshift: ','
-  rshift: ','
   ralt, scrolllock: fallback FORWARD_DEL
+  scrolllock+ralt: ','
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '.'
+  scrolllock+ralt+capslock+lshift: ','
+  rshift: ','
   rshift+lshift: '\u2032'
   ralt+rshift: '\u2033'
 }
@@ -629,8 +767,11 @@ key NUMPAD_0 {
   base: '0'
   lshift, capslock: '\u2423'
   capslock+lshift: '0'
-  rshift: '%'
   ralt, scrolllock: fallback INSERT
+  scrolllock+ralt: '0'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2423'
+  scrolllock+ralt+capslock+lshift: '0'
+  rshift: '%'
   rshift+lshift: '\u2030'
   ralt+rshift: '\u25a1'
 }
@@ -640,8 +781,11 @@ key NUMPAD_1 {
   base: '1'
   lshift, capslock: '\u2666'
   capslock+lshift: '1'
-  rshift: '\u2194'
   ralt, scrolllock: fallback PAGE_UP
+  scrolllock+ralt: '1'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2666'
+  scrolllock+ralt+capslock+lshift: '1'
+  rshift: '\u2194'
   rshift+lshift: '\u2264'
   ralt+rshift: '\u230a'
 }
@@ -651,8 +795,11 @@ key NUMPAD_2 {
   base: '2'
   lshift, capslock: '\u2665'
   capslock+lshift: '2'
-  rshift: '\u2193'
   ralt, scrolllock: fallback FORWARD_DEL
+  scrolllock+ralt: '2'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2665'
+  scrolllock+ralt+capslock+lshift: '2'
+  rshift: '\u2193'
   rshift+lshift: '\u222a'
   ralt+rshift: '\u22c3'
 }
@@ -662,8 +809,11 @@ key NUMPAD_3 {
   base: '3'
   lshift, capslock: '\u2660'
   capslock+lshift: '3'
-  rshift: '\u21cc'
   ralt, scrolllock: fallback FORWARD_DEL
+  scrolllock+ralt: '3'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2660'
+  scrolllock+ralt+capslock+lshift: '3'
+  rshift: '\u21cc'
   rshift+lshift: '\u2265'
   ralt+rshift: '\u230b'
 }
@@ -673,8 +823,11 @@ key NUMPAD_4 {
   base: '4'
   lshift, capslock: '\u2663'
   capslock+lshift: '4'
-  rshift: '\u2190'
   ralt, scrolllock: fallback DPAD_LEFT
+  scrolllock+ralt: '4'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2663'
+  scrolllock+ralt+capslock+lshift: '4'
+  rshift: '\u2190'
   rshift+lshift: '\u2282'
   ralt+rshift: '\u2286'
 }
@@ -684,8 +837,11 @@ key NUMPAD_5 {
   base: '5'
   lshift, capslock: '\u20ac'
   capslock+lshift: '5'
-  rshift: ':'
   ralt, scrolllock: none
+  scrolllock+ralt: '5'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u20ac'
+  scrolllock+ralt+capslock+lshift: '5'
+  rshift: ':'
   rshift+lshift: '\u22b6'
   ralt+rshift: '\u22b7'
 }
@@ -695,8 +851,11 @@ key NUMPAD_6 {
   base: '6'
   lshift, capslock: '\u2023'
   capslock+lshift: '6'
-  rshift: '\u2192'
   ralt, scrolllock: fallback DPAD_RIGHT
+  scrolllock+ralt: '6'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2023'
+  scrolllock+ralt+capslock+lshift: '6'
+  rshift: '\u2192'
   rshift+lshift: '\u2283'
   ralt+rshift: '\u2287'
 }
@@ -706,8 +865,11 @@ key NUMPAD_7 {
   base: '7'
   lshift, capslock: '\u2714'
   capslock+lshift: '7'
-  rshift: '\u2195'
   ralt, scrolllock: fallback MOVE_HOME
+  scrolllock+ralt: '7'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2714'
+  scrolllock+ralt+capslock+lshift: '7'
+  rshift: '\u2195'
   rshift+lshift: '\u226a'
   ralt+rshift: '\u2308'
 }
@@ -717,8 +879,11 @@ key NUMPAD_8 {
   base: '8'
   lshift, capslock: '\u2718'
   capslock+lshift: '8'
-  rshift: '\u2191'
   ralt, scrolllock: fallback DPAD_UP
+  scrolllock+ralt: '8'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2718'
+  scrolllock+ralt+capslock+lshift: '8'
+  rshift: '\u2191'
   rshift+lshift: '\u2229'
   ralt+rshift: '\u22c2'
 }
@@ -728,8 +893,11 @@ key NUMPAD_9 {
   base: '9'
   lshift, capslock: '\u2020'
   capslock+lshift: '9'
-  rshift: '\u20D7'
   ralt, scrolllock: fallback MOVE_END
+  scrolllock+ralt: '9'
+  scrolllock+ralt+lshift, scrolllock+ralt+capslock: '\u2020'
+  scrolllock+ralt+capslock+lshift: '9'
+  rshift: '\u20D7'
   rshift+lshift: '\u226b'
   ralt+rshift: '\u2309'
 }
