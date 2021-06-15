@@ -1,6 +1,10 @@
 # License MIT
 
 # Neo 2 (Classic)
+# https://neo-layout.org/Layouts/neo/
+# https://github.com/neo-layout/neo-layout/blob/master/A-REFERENZ-A/neo20.txt
+# https://git.neo-layout.org/neo/neo-layout/src/branch/master/android/multiling-o-keyboard_neo.json
+
 type OVERLAY
 
 # layer 3 modifiers
