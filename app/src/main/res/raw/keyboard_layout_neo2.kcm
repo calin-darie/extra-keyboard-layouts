@@ -431,7 +431,7 @@ key I {
   scrolllock+ralt+lshift, scrolllock+ralt+capslock: 'I'
   scrolllock+ralt+capslock+lshift: 'i'
   rshift: '/'
-  rshift+lshift: '\u00b9'
+  rshift+lshift: '\u03b9'
   ralt+rshift: '\u222b'
 }
 
