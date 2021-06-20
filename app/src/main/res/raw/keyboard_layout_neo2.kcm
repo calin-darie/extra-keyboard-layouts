@@ -298,7 +298,7 @@ key C {
 key W {
   label: 'w'
   base: 'w'
-  lshift, capslock: 'w'
+  lshift, capslock: 'W'
   capslock+lshift: 'w'
   ralt, scrolllock: fallback PAGE_DOWN
   scrolllock+ralt: 'w'
@@ -591,7 +591,7 @@ key APOSTROPHE {
 
 key BACKSLASH {
   label: '\u00e4'
-  base: '\u0034'
+  base: '\u00e4'
   lshift, capslock: '\u00c4'
   capslock+lshift: '\u00e4'
   ralt, scrolllock: fallback INSERT
