@@ -1,6 +1,8 @@
 # Extra Physical Keyboard Layouts
 To România and beyond!
-https://play.google.com/store/apps/details?id=varzan.extraKeyboardLayouts
+
+[<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="80px"/>](https://play.google.com/store/apps/details?id=varzan.extraKeyboardLayouts)
+[<img alt='Get it on IzzyOnDroid' src='https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png' height="80px"/>](https://apt.izzysoft.de/fdroid/index/apk/varzan.extraKeyboardLayouts)
 
 Adds a few choices to the list of layouts to use when a physical keyboard is connected e.g. via OTG or Bluetooth.
 
