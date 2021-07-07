@@ -141,4 +141,5 @@
     <keyboard-layout android:label="@string/keyboard_layout_santali_sarjom_baha_phonetic" android:name="keyboard_layout_santali_sarjom_baha_phonetic" android:keyboardLayout="@raw/keyboard_layout_santali_sarjom_baha_phonetic"/>
     <keyboard-layout android:label="@string/keyboard_layout_neo2" android:name="keyboard_layout_neo2" android:keyboardLayout="@raw/keyboard_layout_neo2"/>
     <keyboard-layout android:label="@string/keyboard_layout_portuguese_magic" android:name="keyboard_layout_portuguese_magic" android:keyboardLayout="@raw/keyboard_layout_portuguese_magic"/>
+    <keyboard-layout android:label="@string/keyboard_layout_tamil99" android:name="keyboard_layout_tamil99" android:keyboardLayout="@raw/keyboard_layout_tamil99"/>
 </keyboard-layouts>

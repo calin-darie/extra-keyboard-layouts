@@ -130,6 +130,7 @@ Experimental - not tested:
 * Syriac Phonetic
 * Tajik
 * Tamil [<sup>1</sup>](#note1)
+* Tamil 99
 * Tatar
 * Telugu [<sup>1</sup>](#note1)
 * Thai Kedmanee (non-ShiftLock)
