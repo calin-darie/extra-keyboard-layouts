@@ -30,6 +30,7 @@ Tested layouts:
 * Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
 * Polish (Programmers)
+* Portuguese (Magic keyboard)
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
