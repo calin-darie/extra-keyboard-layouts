@@ -49,6 +49,7 @@
 	<string name="keyboard_layout_new_tai_lue">New Tai Lue</string>
 	<string name="keyboard_layout_greek_220_latin">Greek (220) Latin</string>
 	<string name="keyboard_layout_united_states_dvorak_for_left_hand">United States-Dvorak for left hand</string>
+	<string name="keyboard_layout_united_states_dvorak_programmer">United States-Dvorak Programmer</string>
 	<string name="keyboard_layout_thai_pattachote_non_shiftlock">Thai Pattachote (non-ShiftLock)</string>
 	<string name="keyboard_layout_armenian_typewriter">Armenian Typewriter</string>
 	<string name="keyboard_layout_georgian_mes">Georgian (MES)</string>
