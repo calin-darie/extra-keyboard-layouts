@@ -284,8 +284,8 @@ key SEMICOLON {
 }
 
 key SLASH {
-  label: '\u0304'
-  base: '\u0304'
+  label: '\u0303'
+  base: '\u0303'
   shift: '\u0302'
 }
 
