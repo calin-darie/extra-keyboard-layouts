@@ -73,7 +73,8 @@ key 3 {
   base: '3'
   shift: '\u0451'
   capslock+shift: '\u0451'
-  ralt: '\u2116'
+  ralt: '\u0023'
+  ralt+shift: '\u2116'
 }
 
 key 4 {
@@ -81,6 +82,7 @@ key 4 {
   base: '4'
   shift: '\u0401'
   capslock+shift: '\u0401'
+  ralt: '\u0024'
 }
 
 key 5 {
@@ -88,6 +90,7 @@ key 5 {
   base: '5'
   shift: '\u044a'
   capslock+shift: '\u044a'
+  ralt: '\u0025'
 }
 
 key 6 {
@@ -95,6 +98,7 @@ key 6 {
   base: '6'
   shift: '\u042a'
   capslock+shift: '\u042a'
+  ralt: '\u005e'
 }
 
 key 7 {
@@ -138,6 +142,8 @@ key EQUALS {
   shift: '\u0427'
   capslock: '\u0427'
   capslock+shift: '\u0447'
+  ralt: '\u003d'
+  ralt+shift: '\u002b'
 }
 
 key Q {
@@ -227,6 +233,7 @@ key LEFT_BRACKET {
   shift: '\u0428'
   capslock: '\u0428'
   capslock+shift: '\u0448'
+  ralt: '\u005b'
 }
 
 key RIGHT_BRACKET {
@@ -235,6 +242,7 @@ key RIGHT_BRACKET {
   shift: '\u0429'
   capslock: '\u0429'
   capslock+shift: '\u0449'
+  ralt: '\u005d'
 }
 
 key A {
@@ -329,6 +337,8 @@ key GRAVE {
   shift: '\u042e'
   capslock: '\u042e'
   capslock+shift: '\u044e'
+  ralt: '\u0060'
+  ralt+shift: '\u007e'
 }
 
 key BACKSLASH {
@@ -337,6 +347,8 @@ key BACKSLASH {
   shift: '\u042d'
   capslock: '\u042d'
   capslock+shift: '\u044d'
+  ralt: '\u005c'
+  ralt+shift: '\u007c'
 }
 
 key Z {

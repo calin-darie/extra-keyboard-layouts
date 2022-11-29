@@ -109,6 +109,7 @@ Experimental - not tested:
 * Phags Pa [<sup>1</sup>](#note1)
 * Punjabi [<sup>1</sup>](#note1)
 * Russian (Typewriter)
+* Russian Phonetic Linux[<sup>3</sup>](#note3)
 * Russian Phonetic YaWert
 * Sakha [<sup>1</sup>](#note1)
 * Sami Extended Finland-Sweden
@@ -193,5 +194,37 @@ The following features are not available in android:
 * undo functionality (triggered by Z in level 4)
 * rotate key
 
+<sup id="note3">**3**</sup> Russian Phonetic Linux is taken from standard layouts available on Linux, it was modified slightly to add back some symbols that are replaced by Russian characters in the Base and Shift layers, to get to them use RightAlt and RightAlt+Shift respectively.
+
+Here are the notable modifications in relation to QWERTY
+* `SHIFT` + 3 => ё
+* `RALT` + 3 => #
+* `RALT` + `SHIFT` + 3 => №
+* `SHIFT` + 4 => Ё
+* `RALT` + 4 => $
+* `SHIFT` + 5 => ъ
+* `RALT` + 5 => %
+* `SHIFT` + 6 => Ъ
+* `RALT` + 6 => ^
+* = => ч
+* `SHIFT` + = (+) => Ч
+* `RALT` + = => =
+* `RALT` + `SHIFT` + = => +
+* [ => ш
+* `SHIFT` + [ => Ш
+* `RALT` + [ => [
+* `RALT` + `SHIFT` + [ => {
+* ] => щ
+* `SHIFT` + ] => Ш
+* `RALT` + ] => ]
+* `RALT` + `SHIFT` + ] => }
+* \` => ю
+* `SHIFT` + \` => Ю
+* `RALT` + \` => \`
+* `RALT` + `SHIFT` + \` => ~
+* \ => э
+* `SHIFT` + \ => Э
+* `RALT` + \ => \
+* `RALT` + `SHIFT` + \ => |
 
 If you found this useful, you may [buy me a drink](https://paypal.me/CalinDarie?locale.x=en_US)
