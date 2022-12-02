@@ -48,6 +48,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_new_tai_lue" android:name="keyboard_layout_new_tai_lue" android:keyboardLayout="@raw/keyboard_layout_new_tai_lue"/>
     <keyboard-layout android:label="@string/keyboard_layout_greek_220_latin" android:name="keyboard_layout_greek_220_latin" android:keyboardLayout="@raw/keyboard_layout_greek_220_latin"/>
     <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak_for_left_hand" android:name="keyboard_layout_united_states_dvorak_for_left_hand" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak_for_left_hand"/>
+    <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak_programmer" android:name="keyboard_layout_united_states_dvorak_programmer" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak_programmer"/>
     <keyboard-layout android:label="@string/keyboard_layout_thai_pattachote_non_shiftlock" android:name="keyboard_layout_thai_pattachote_non_shiftlock" android:keyboardLayout="@raw/keyboard_layout_thai_pattachote_non_shiftlock"/>
     <keyboard-layout android:label="@string/keyboard_layout_armenian_typewriter" android:name="keyboard_layout_armenian_typewriter" android:keyboardLayout="@raw/keyboard_layout_armenian_typewriter"/>
     <keyboard-layout android:label="@string/keyboard_layout_georgian_mes" android:name="keyboard_layout_georgian_mes" android:keyboardLayout="@raw/keyboard_layout_georgian_mes"/>
