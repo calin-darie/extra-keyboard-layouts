@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.1"
+    compileSdkVersion 33
+    buildToolsVersion "33.0.1"
     defaultConfig {
         applicationId "varzan.extraKeyboardLayouts"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 1027
-        versionName "1.27"
+        targetSdkVersion 33
+        versionCode 1028
+        versionName "1.28"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
