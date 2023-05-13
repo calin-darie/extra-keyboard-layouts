@@ -146,4 +146,5 @@
 	<string name="keyboard_layout_neo2">Neo 2 (Classic)</string>
 	<string name="keyboard_layout_portuguese_magic">Portuguese (Magic Keyboard)</string>
 	<string name="keyboard_layout_tamil99">Tamil 99</string>	
+	<string name="keyboard_layout_urdu_phonetic">Urdu Phonetic</string>
 </resources>
