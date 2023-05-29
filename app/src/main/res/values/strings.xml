@@ -54,6 +54,7 @@
 	<string name="keyboard_layout_armenian_typewriter">Armenian Typewriter</string>
 	<string name="keyboard_layout_georgian_mes">Georgian (MES)</string>
 	<string name="keyboard_layout_english_india">English (India)</string>
+	<string name="keyboard_layout_eu_eurkey">EU (EurKEY)</string>
 	<string name="keyboard_layout_bulgarian_typewriter">Bulgarian (Typewriter)</string>
 	<string name="keyboard_layout_bulgarian_phonetic_traditional">Bulgarian (Phonetic Traditional)</string>
 	<string name="keyboard_layout_greek_319_latin">Greek (319) Latin</string>
