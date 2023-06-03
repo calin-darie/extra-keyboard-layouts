@@ -53,6 +53,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_armenian_typewriter" android:name="keyboard_layout_armenian_typewriter" android:keyboardLayout="@raw/keyboard_layout_armenian_typewriter"/>
     <keyboard-layout android:label="@string/keyboard_layout_georgian_mes" android:name="keyboard_layout_georgian_mes" android:keyboardLayout="@raw/keyboard_layout_georgian_mes"/>
     <keyboard-layout android:label="@string/keyboard_layout_english_india" android:name="keyboard_layout_english_india" android:keyboardLayout="@raw/keyboard_layout_english_india"/>
+    <keyboard-layout android:label="@string/keyboard_layout_eu_eurkey" android:name="keyboard_layout_eu_eurkey" android:keyboardLayout="@raw/keyboard_layout_eu_eurkey"/>
     <keyboard-layout android:label="@string/keyboard_layout_bulgarian_typewriter" android:name="keyboard_layout_bulgarian_typewriter" android:keyboardLayout="@raw/keyboard_layout_bulgarian_typewriter"/>
     <keyboard-layout android:label="@string/keyboard_layout_bulgarian_phonetic_traditional" android:name="keyboard_layout_bulgarian_phonetic_traditional" android:keyboardLayout="@raw/keyboard_layout_bulgarian_phonetic_traditional"/>
     <keyboard-layout android:label="@string/keyboard_layout_greek_319_latin" android:name="keyboard_layout_greek_319_latin" android:keyboardLayout="@raw/keyboard_layout_greek_319_latin"/>

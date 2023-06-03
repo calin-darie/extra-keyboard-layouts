@@ -1,0 +1,339 @@
+# License: MIT
+
+# EU (EurKEY)
+# Built using the EurKEY v1.3 reference
+type OVERLAY
+
+### Row 1
+key GRAVE {
+  label: '`'
+  base: '`'
+  shift: '~'
+  ralt: '\u0300' # grave accent deadkey
+  ralt+shift: '\u0303' # tilde accent deadkey
+}
+key 1 {
+  label: '1'
+  base: '1'
+  shift: '!'
+  ralt: '\u00a1'
+  ralt+shift: '\u00b9'
+}
+key 2 {
+  label: '2'
+  base: '2'
+  shift: '@'
+  ralt: '\u00aa'
+  ralt+shift: '\u00b2'
+}
+key 3 {
+  label: '3'
+  base: '3'
+  shift: '#'
+  ralt: '\u00ba'
+  ralt+shift: '\u00b3'
+}
+key 4 {
+  label: '4'
+  base: '4'
+  shift: '$'
+  ralt: '\u00a3'
+  ralt+shift: '\u00a5'
+}
+key 5 {
+  label: '5'
+  base: '5'
+  shift: '%'
+  ralt: '\u20ac'
+  ralt+shift: '\u00a2'
+}
+key 6 {
+  label: '6'
+  base: '6'
+  shift: '^'
+  ralt: '\u0302' # circumflex accent deadkey
+  ralt+shift: '\u02c7' # NOT IMPLEMENTED: should be a caron (or hacek) deadkey
+}
+key 7 {
+  label: '7'
+  base: '7'
+  shift: '&'
+  ralt: '\u030a' # NOT IMPLEMENTED: should be a ring accent (above the letter) deadkey
+  ralt+shift: '\u00af' # NOT IMPLEMENTED: should be a macron accent (bar over the letter) deadkey
+}
+key 8 {
+  label: '8'
+  base: '8'
+  shift: '*'
+  ralt: '\u201e'
+  ralt+shift: '\u201a'
+}
+key 9 {
+  label: '9'
+  base: '9'
+  shift: '('
+  ralt: '\u201c'
+  ralt+shift: '\u2018'
+}
+key 0 {
+  label: '0'
+  base: '0'
+  shift: ')'
+  ralt: '\u201d'
+  ralt+shift: '\u2019'
+}
+key MINUS {
+  label: '-'
+  base: '-'
+  shift: '_'
+  ralt: '\u2713'
+  ralt+shift: '\u2717'
+}
+key EQUALS {
+  label: '='
+  base: '='
+  shift: '+'
+  ralt: '\u00d7'
+  ralt+shift: '\u00f7'
+}
+### Row 2
+key Q {
+  label: 'Q'
+  base: 'q'
+  shift, capslock: 'Q'
+  ralt: '\u00e6'
+  ralt+shift: '\u00c6'
+}
+key W {
+  label: 'W'
+  base: 'w'
+  shift, capslock: 'W'
+  ralt: '\u00e5'
+  ralt+shift: '\u00c5'
+}
+key E {
+  label: 'E'
+  base: 'e'
+  shift, capslock: 'E'
+  ralt: '\u00eb'
+  ralt+shift: '\u00cb'
+}
+key R {
+  label: 'R'
+  base: 'r'
+  shift, capslock: 'R'
+  ralt: '\u00fd'
+  ralt+shift: '\u00dd'
+}
+key T {
+  label: 'T'
+  base: 't'
+  shift, capslock: 'T'
+  ralt: '\u00fe'
+  ralt+shift: '\u00de'
+}
+key Y {
+  label: 'Y'
+  base: 'y'
+  shift, capslock: 'Y'
+  ralt: '\u00ff'
+  ralt+shift: '\u0178'
+}
+key U {
+  label: 'U'
+  base: 'u'
+  shift, capslock: 'U'
+  ralt: '\u00fc'
+  ralt+shift: '\u00dc'
+}
+key I {
+  label: 'I'
+  base: 'i'
+  shift, capslock: 'I'
+  ralt: '\u00ef'
+  ralt+shift: '\u00cf'
+}
+key O {
+  label: 'O'
+  base: 'o'
+  shift, capslock: 'O'
+  ralt: '\u00f6'
+  ralt+shift: '\u00d6'
+}
+key P {
+  label: 'P'
+  base: 'p'
+  shift, capslock: 'P'
+  ralt: '\u0153'
+  ralt+shift: '\u0152'
+}
+key LEFT_BRACKET {
+  label: '['
+  base: '['
+  shift: '{'
+  ralt: '\u00ab'
+  ralt+shift: '\u2039'
+}
+key RIGHT_BRACKET {
+  label: ']'
+  base: ']'
+  shift: '}'
+  ralt: '\u00bb'
+  ralt+shift: '\u203a'
+}
+key BACKSLASH {
+  label: '\\'
+  base: '\\'
+  shift: '|'
+  # ralt: '' # NOT IMPLEMENTED: this key enables some special characters using a deadkey
+  ralt+shift: '\u00a6'
+}
+### Row 3
+key A {
+  label: 'A'
+  base: 'a'
+  shift, capslock: 'A'
+  ralt: '\u00e4'
+  ralt+shift: '\u00c4'
+}
+key S {
+  label: 'S'
+  base: 's'
+  shift, capslock: 'S'
+  ralt: '\u00df'
+  ralt+shift: '\u1e9e'
+}
+key D {
+  label: 'D'
+  base: 'd'
+  shift, capslock: 'D'
+  ralt: '\u0111'
+  ralt+shift: '\u0110'
+}
+key F {
+  label: 'F'
+  base: 'f'
+  shift, capslock: 'F'
+  ralt: '\u00e8'
+  ralt+shift: '\u00c8'
+}
+key G {
+  label: 'G'
+  base: 'g'
+  shift, capslock: 'G'
+  ralt: '\u00e9'
+  ralt+shift: '\u00c9'
+}
+key H {
+  label: 'H'
+  base: 'h'
+  shift, capslock: 'H'
+  ralt: '\u00f9'
+  ralt+shift: '\u00d9'
+}
+key J {
+  label: 'J'
+  base: 'j'
+  shift, capslock: 'J'
+  ralt: '\u00fa'
+  ralt+shift: '\u00da'
+}
+key K {
+  label: 'K'
+  base: 'k'
+  shift, capslock: 'K'
+  ralt: '\u0133'
+  ralt+shift: '\u0132'
+}
+key L {
+  label: 'L'
+  base: 'l'
+  shift, capslock: 'L'
+  ralt: '\u00f8'
+  ralt+shift: '\u00d8'
+}
+key SEMICOLON {
+  label: ';'
+  base: ';'
+  shift: ':'
+  ralt: '\u00b0'
+  ralt+shift: '\u00b7'
+}
+key APOSTROPHE {
+  label: '\''
+  base: '\''
+  shift: '"'
+  ralt: '\u0301' # acute accent deadkey
+  ralt+shift: '\u0308' # umlaut deadkey
+}
+### Row 4
+key Z {
+  label: 'Z'
+  base: 'z'
+  shift, capslock: 'Z'
+  ralt: '\u00e0'
+  ralt+shift: '\u00c0'
+}
+key X {
+  label: 'X'
+  base: 'x'
+  shift, capslock: 'X'
+  ralt: '\u00e1'
+  ralt+shift: '\u00c1'
+}
+key C {
+  label: 'C'
+  base: 'c'
+  shift, capslock: 'C'
+  ralt: '\u00e7'
+  ralt+shift: '\u00c7'
+}
+key V {
+  label: 'V'
+  base: 'v'
+  shift, capslock: 'V'
+  ralt: '\u00ec'
+  ralt+shift: '\u00cc'
+}
+key B {
+  label: 'B'
+  base: 'b'
+  shift, capslock: 'B'
+  ralt: '\u00ed'
+  ralt+shift: '\u00cd'
+}
+key N {
+  label: 'N'
+  base: 'n'
+  shift, capslock: 'N'
+  ralt: '\u00f1'
+  ralt+shift: '\u00d1'
+}
+key M {
+  label: 'M'
+  base: 'm'
+  shift, capslock: 'M'
+  # ralt: '' # NOT IMPLEMENTED: should be a deadkey for accessing the greek alphabet
+  # ralt+shift: '' # NOT IMPLEMENTED: should be a deadkey for accessing math symbols
+}
+key COMMA {
+  label: ','
+  base: ','
+  shift: '<'
+  ralt: '\u00f2'
+  ralt+shift: '\u00d2'
+}
+key PERIOD {
+  label: '.'
+  base: '.'
+  shift: '>'
+  ralt: '\u00f3'
+  ralt+shift: '\u00d3'
+}
+key SLASH {
+  label: '/'
+  base: '/'
+  shift: '?'
+  ralt: '\u00bf'
+  ralt+shift: '\u2026'
+}
