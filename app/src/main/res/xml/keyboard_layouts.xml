@@ -145,4 +145,5 @@
     <keyboard-layout android:label="@string/keyboard_layout_portuguese_magic" android:name="keyboard_layout_portuguese_magic" android:keyboardLayout="@raw/keyboard_layout_portuguese_magic"/>
     <keyboard-layout android:label="@string/keyboard_layout_tamil99" android:name="keyboard_layout_tamil99" android:keyboardLayout="@raw/keyboard_layout_tamil99"/>
     <keyboard-layout android:label="@string/keyboard_layout_urdu_phonetic" android:name="keyboard_layout_urdu_phonetic" android:keyboardLayout="@raw/keyboard_layout_urdu_phonetic"/>
+    <keyboard-layout android:label="@string/keyboard_layout_nias" android:name="keyboard_layout_nias" android:keyboardLayout="@raw/keyboard_layout_nias"/>
 </keyboard-layouts>

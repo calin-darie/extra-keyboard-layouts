@@ -145,6 +145,7 @@
 	<string name="keyboard_layout_santali_sarjom_baha_phonetic">Santali (Sarjom baha - phonetic)</string>
 	<string name="keyboard_layout_neo2">Neo 2 (Classic)</string>
 	<string name="keyboard_layout_portuguese_magic">Portuguese (Magic Keyboard)</string>
-	<string name="keyboard_layout_tamil99">Tamil 99</string>	
+	<string name="keyboard_layout_tamil99">Tamil 99</string>
 	<string name="keyboard_layout_urdu_phonetic">Urdu Phonetic</string>
+	<string name="keyboard_layout_nias">Nias</string>
 </resources>
