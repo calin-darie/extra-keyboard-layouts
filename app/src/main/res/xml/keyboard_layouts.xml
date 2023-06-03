@@ -128,6 +128,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_n_ko" android:name="keyboard_layout_n_ko" android:keyboardLayout="@raw/keyboard_layout_n_ko"/>
     <keyboard-layout android:label="@string/keyboard_layout_phags_pa" android:name="keyboard_layout_phags_pa" android:keyboardLayout="@raw/keyboard_layout_phags_pa"/>
     <keyboard-layout android:label="@string/keyboard_layout_bangla_jatiya_layout" android:name="keyboard_layout_bangla_jatiya_layout" android:keyboardLayout="@raw/keyboard_layout_bangla_jatiya_layout"/>
+    <keyboard-layout android:label="@string/keyboard_layout_bangla_probhat_layout" android:name="keyboard_layout_bangla_probhat_layout" android:keyboardLayout="@raw/keyboard_layout_bangla_probhat_layout"/>
     <keyboard-layout android:label="@string/keyboard_layout_serbian_cyrillic" android:name="keyboard_layout_serbian_cyrillic" android:keyboardLayout="@raw/keyboard_layout_serbian_cyrillic"/>
     <keyboard-layout android:label="@string/keyboard_layout_jawi_sirim" android:name="keyboard_layout_jawi_sirim" android:keyboardLayout="@raw/keyboard_layout_jawi_sirim"/>
     <keyboard-layout android:label="@string/keyboard_layout_jawi_phonetic_qwerty" android:name="keyboard_layout_jawi_phonetic_qwerty" android:keyboardLayout="@raw/keyboard_layout_jawi_phonetic_qwerty"/>
