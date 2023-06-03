@@ -1,0 +1,323 @@
+# License: MIT
+
+# Santali (Inscript)
+type OVERLAY
+
+map key 2 1
+map key 3 2
+map key 4 3
+map key 5 4
+map key 6 5
+map key 7 6
+map key 8 7
+map key 9 8
+map key 10 9
+map key 11 0
+map key 12 MINUS
+map key 13 EQUALS
+map key 18 E
+map key 21 Y
+map key 22 U
+map key 23 I
+map key 24 O
+map key 25 P
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
+map key 30 A
+map key 31 S
+map key 32 D
+map key 33 F
+map key 34 G
+map key 35 H
+map key 36 J
+map key 37 K
+map key 38 L
+map key 39 SEMICOLON
+map key 40 APOSTROPHE
+map key 41 GRAVE
+map key 44 Z
+map key 45 X
+map key 46 C
+map key 47 V
+map key 48 B
+map key 49 N
+map key 50 M
+map key 51 COMMA
+map key 52 PERIOD
+map key 53 SLASH
+map key 57 SPACE
+map key 95 NUMPAD_COMMA
+
+key 1 {
+  label: '\u1c51'
+  base: '\u1c51'
+  shift: '\u0021'
+  capslock+shift: '\u0021'
+}
+
+key 2 {
+  label: '\u1c52'
+  base: '\u1c52'
+  shift: '\u0040'
+  capslock+shift: '\u0040'
+}
+
+key 3 {
+  label: '\u1c53'
+  base: '\u1c53'
+  shift: '\u0023'
+  capslock+shift: '\u0023'
+}
+
+key 4 {
+  label: '\u1c54'
+  base: '\u1c54'
+  shift: '\u0024'
+  capslock+shift: '\u0024'
+}
+
+key 5 {
+  label: '\u1c55'
+  base: '\u1c55'
+  shift: '\u0025'
+  capslock+shift: '\u0025'
+}
+
+key 6 {
+  label: '\u1c56'
+  base: '\u1c56'
+  shift: '\u005e'
+  capslock+shift: '\u005e'
+}
+
+key 7 {
+  label: '\u1c57'
+  base: '\u1c57'
+  shift: '\u0026'
+  capslock+shift: '\u0026'
+}
+
+key 8 {
+  label: '\u1c58'
+  base: '\u1c58'
+  shift: '\u002a'
+  capslock+shift: '\u002a'
+}
+
+key 9 {
+  label: '\u1c59'
+  base: '\u1c59'
+  shift: '\u0028'
+  capslock+shift: '\u0028'
+}
+
+key 0 {
+  label: '\u1c50'
+  base: '\u1c50'
+  shift: '\u0029'
+  capslock+shift: '\u0029'
+}
+
+key MINUS {
+  label: '\u002d'
+  base: '\u002d'
+  shift: '\u005f'
+  capslock+shift: '\u005f'
+}
+
+key EQUALS {
+  label: '\u003d'
+  base: '\u003d'
+  shift: '\u002b'
+  capslock+shift: '\u002b'
+}
+
+key E {
+  label: '\u1c5f'
+  base: '\u1c5f'
+}
+
+key Y {
+  label: '\u1c75'
+  base: '\u1c75'
+}
+
+key U {
+  label: '\u1c66'
+  base: '\u1c66'
+  shift, capslock: '\u1c5d'
+  capslock+shift: '\u1c66'
+}
+
+key I {
+  label: '\u1c5c'
+  base: '\u1c5c'
+}
+
+key O {
+  label: '\u1c6b'
+  base: '\u1c6b'
+}
+
+key P {
+  label: '\u1c61'
+  base: '\u1c61'
+}
+
+key LEFT_BRACKET {
+  label: '\u1c70'
+  base: '\u1c70'
+  shift, capslock: '\u1c72'
+  capslock+shift: '\u1c70'
+}
+
+key RIGHT_BRACKET {
+  label: '\u1c79'
+  base: '\u1c79'
+  shift, capslock: '\u1c67'
+  capslock+shift: '\u1c67'
+}
+
+key A {
+  label: '\u1c73'
+  base: '\u1c73'
+}
+
+key S {
+  label: '\u1c6e'
+  base: '\u1c6e'
+}
+
+key D {
+  label: '\u1c5a'
+  base: '\u1c5a'
+}
+
+key F {
+  label: '\u1c64'
+  base: '\u1c64'
+}
+
+key G {
+  label: '\u1c69'
+  base: '\u1c69'
+}
+
+key H {
+  label: '\u1c6f'
+  base: '\u1c6f'
+}
+
+key J {
+  label: '\u1c68'
+  base: '\u1c68'
+}
+
+key K {
+  label: '\u1c60'
+  base: '\u1c60'
+}
+
+key L {
+  label: '\u1c5b'
+  base: '\u1c5b'
+}
+
+key SEMICOLON {
+  label: '\u1c6a'
+  base: '\u1c6a'
+  shift: '\u1c7a'
+  capslock+shift: '\u1c6a'
+}
+
+key APOSTROPHE {
+  label: '\u1c74'
+  base: '\u1c74'
+}
+
+key GRAVE {
+  label: '\u1c7b'
+  base: '\u1c7b'
+}
+
+key Z {
+  label: '\u1c77'
+  base: '\u1c77'
+  shift, capslock: '\u1c7d'
+  capslock+shift: '\u1c77'
+}
+
+key X {
+  label: '\u1c78'
+  base: '\u1c78'
+}
+
+key C {
+  label: '\u1c62'
+  base: '\u1c62'
+  shift, capslock: '\u1c6c'
+  capslock+shift: '\u1c62'
+}
+
+key V {
+  label: '\u1c71'
+  base: '\u1c71'
+}
+
+key B {
+  label: '\u1c63'
+  base: '\u1c63'
+  shift, capslock: '\u1c76'
+  capslock+shift: '\u1c63'
+}
+
+key N {
+  label: '\u1c5e'
+  base: '\u1c5e'
+}
+
+key M {
+  label: '\u1c65'
+  base: '\u1c65'
+}
+
+key COMMA {
+  label: '\u1c7f'
+  base: '\u1c7f'
+  shift: '\u002c'
+  capslock+shift: '\u1c7f'
+}
+
+key PERIOD {
+  label: '\u1c7e'
+  base: '\u1c7e'
+  shift: '\u002e'
+  capslock+shift: '\u1c7e'
+}
+
+key SLASH {
+  label: '\u1c6d'
+  base: '\u1c6d'
+}
+
+key SPACE {
+  label: '\u0020'
+  base: '\u0020'
+  shift: '\u0020'
+  capslock+shift: '\u0020'
+}
+
+key PLUS {
+  label: '\u005c'
+  base: '\u005c'
+  shift: '\u007c'
+  capslock+shift: '\u007c'
+}
+
+key NUMPAD_COMMA {
+  label: '\u002e'
+  base: '\u002e'
+  shift: '\u002e'
+  capslock+shift: '\u002e'
+}
+
