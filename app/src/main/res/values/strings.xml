@@ -130,6 +130,7 @@
 	<string name="keyboard_layout_n_ko">N’Ko</string>
 	<string name="keyboard_layout_phags_pa">Phags-pa</string>
 	<string name="keyboard_layout_bangla_jatiya_layout">Bangla - Jatiya Layout</string>
+	<string name="keyboard_layout_bangla_probhat_layout">Bangla - Probhat Layout</string>
 	<string name="keyboard_layout_serbian_cyrillic">Serbian (Cyrillic)</string>
 	<string name="keyboard_layout_jawi_sirim">Jawi SIRIM</string>
 	<string name="keyboard_layout_jawi_phonetic_qwerty">Jawi Phonetic (QWERTY)</string>
