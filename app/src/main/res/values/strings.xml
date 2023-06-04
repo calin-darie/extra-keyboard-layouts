@@ -39,6 +39,14 @@
 	<string name="keyboard_layout_hebrew_standard">Hebrew (Standard)</string>
 	<string name="keyboard_layout_romanian_programmers">Romanian (Programmers)</string>
 	<string name="keyboard_layout_thai_kedmanee_non_shiftlock">Thai Kedmanee (non-ShiftLock)</string>
+	<string name="keyboard_layout_thai_kedmanee_writer">Thai Kedmanee Writer</string>
+	<string name="keyboard_layout_thai_kedmanee_writer_non_shiftlock">Thai Kedmanee Writer (non-ShiftLock)</string>
+	<string name="keyboard_layout_thai_pattachote_writer">Thai Pattachote Writer</string>
+	<string name="keyboard_layout_thai_pattachote_writer_non_shiftlock">Thai Pattachote Writer (non-ShiftLock)</string>
+	<string name="keyboard_layout_thai_manoonchai">Thai Manoonchai</string>
+	<string name="keyboard_layout_thai_manoonchai_non_shiftlock">Thai Manoonchai (non-ShiftLock)</string>
+	<string name="keyboard_layout_thai_manoonchai_writer">Thai Manoonchai Writer</string>
+	<string name="keyboard_layout_thai_manoonchai_writer_non_shiftlock">Thai Manoonchai Writer (non-ShiftLock)</string>
 	<string name="keyboard_layout_ukrainian_enhanced">Ukrainian (Enhanced)</string>
 	<string name="keyboard_layout_lithuanian_standard">Lithuanian Standard</string>
 	<string name="keyboard_layout_armenian_phonetic">Armenian Phonetic</string>
