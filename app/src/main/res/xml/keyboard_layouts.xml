@@ -147,6 +147,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_turkmen" android:name="keyboard_layout_turkmen" android:keyboardLayout="@raw/keyboard_layout_turkmen"/>
     <keyboard-layout android:label="@string/keyboard_layout_ukrainian_enhanced" android:name="keyboard_layout_ukrainian_enhanced" android:keyboardLayout="@raw/keyboard_layout_ukrainian_enhanced"/>
     <keyboard-layout android:label="@string/keyboard_layout_united_kingdom_extended" android:name="keyboard_layout_united_kingdom_extended" android:keyboardLayout="@raw/keyboard_layout_united_kingdom_extended"/>
+    <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak" android:name="keyboard_layout_united_states_dvorak" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak"/>
     <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak_for_left_hand" android:name="keyboard_layout_united_states_dvorak_for_left_hand" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak_for_left_hand"/>
     <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak_for_right_hand" android:name="keyboard_layout_united_states_dvorak_for_right_hand" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak_for_right_hand"/>
     <keyboard-layout android:label="@string/keyboard_layout_united_states_dvorak_programmer" android:name="keyboard_layout_united_states_dvorak_programmer" android:keyboardLayout="@raw/keyboard_layout_united_states_dvorak_programmer"/>
