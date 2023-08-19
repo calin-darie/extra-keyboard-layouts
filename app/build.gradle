@@ -7,8 +7,8 @@ android {
         applicationId "varzan.extraKeyboardLayouts"
         minSdkVersion 16
         targetSdkVersion 33
-        versionCode 1028
-        versionName "1.28"
+        versionCode 1029
+        versionName "1.29"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
