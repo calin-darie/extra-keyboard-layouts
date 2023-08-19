@@ -26,9 +26,11 @@ Tested layouts:
 * Czech (QWERTZ)
 * Divehi Phonetic
 * Dutch
+* EurKEY
 * Halmak
 * Hindi Traditional INSCRIPT [<sup>1</sup>](#note1)
 * Jawi Phonetic QWERTY
+* Nias
 * Polish (Programmers)
 * Portuguese (Magic keyboard)
 * Romanian Programmers
@@ -38,6 +40,7 @@ Tested layouts:
 * Thai Manoonchai +/- Writer +/- Shiftlock
 * Thai Pattachote +/- Writer +/- Shiftlock
 * Thai TIS 820-2538
+* Urdu (Phonetic)
 
 Experimental - not tested:
 * ABC - Latin alphabetical order
