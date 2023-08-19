@@ -34,7 +34,9 @@ Tested layouts:
 * Romanian Programmers
 * Romanian Standard
 * Swedish Dvorak (Svorak A1)
-* Thai Kedmanee
+* Thai Kedmanee +/- Writer, +/- Shiftlock
+* Thai Manoonchai +/- Writer +/- Shiftlock
+* Thai Pattachote +/- Writer +/- Shiftlock
 * Thai TIS 820-2538
 
 Experimental - not tested:
