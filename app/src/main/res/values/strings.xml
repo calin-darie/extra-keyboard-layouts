@@ -147,6 +147,7 @@
 	<string name="keyboard_layout_turkmen">Turkmen</string>
 	<string name="keyboard_layout_ukrainian_enhanced">Ukrainian (Enhanced)</string>
 	<string name="keyboard_layout_united_kingdom_extended">United Kingdom Extended</string>
+	<string name="keyboard_layout_united_states_dvorak">United States-Dvorak</string>
 	<string name="keyboard_layout_united_states_dvorak_for_left_hand">United States-Dvorak for left hand</string>
 	<string name="keyboard_layout_united_states_dvorak_for_right_hand">United States-Dvorak for right hand</string>
 	<string name="keyboard_layout_united_states_dvorak_programmer">United States-Dvorak Programmer</string>
