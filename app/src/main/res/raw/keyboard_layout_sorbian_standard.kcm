@@ -13,8 +13,8 @@ map key 8 7
 map key 9 8
 map key 10 9
 map key 11 0
-map key 12 LEFT_BRACKET
-map key 13 RIGHT_BRACKET
+map key 12 MINUS
+map key 13 EQUALS
 map key 16 Q
 map key 17 W
 map key 18 E
@@ -25,8 +25,8 @@ map key 22 U
 map key 23 I
 map key 24 O
 map key 25 P
-map key 26 SEMICOLON
-map key 27 EQUALS
+map key 26 LEFT_BRACKET
+map key 27 RIGHT_BRACKET
 map key 30 A
 map key 31 S
 map key 32 D
@@ -36,10 +36,10 @@ map key 35 H
 map key 36 J
 map key 37 K
 map key 38 L
-map key 39 GRAVE
+map key 39 SEMICOLON
 map key 40 APOSTROPHE
-map key 41 BACKSLASH
-map key 43 SLASH
+map key 41 GRAVE
+map key 43 BACKSLASH
 map key 44 Y
 map key 45 X
 map key 46 C
@@ -49,7 +49,7 @@ map key 49 N
 map key 50 M
 map key 51 COMMA
 map key 52 PERIOD
-map key 53 MINUS
+map key 53 SLASH
 map key 57 SPACE
 map key 86 PLUS
 map key 95 NUMPAD_COMMA
@@ -130,7 +130,7 @@ key 0 {
   ralt: '\u007d'
 }
 
-key LEFT_BRACKET {
+key MINUS {
   label: '\u00df'
   base: '\u00df'
   shift: '\u003f'
@@ -139,7 +139,7 @@ key LEFT_BRACKET {
   ralt: '\u005c'
 }
 
-key RIGHT_BRACKET {
+key EQUALS {
   label: '\u0301'
   base: '\u0301'
   shift: '\u0300'
@@ -228,7 +228,7 @@ key P {
   capslock+shift: 'p'
 }
 
-key SEMICOLON {
+key LEFT_BRACKET {
   label: '\u00fc'
   base: '\u00fc'
   shift: '\u00dc'
@@ -236,7 +236,7 @@ key SEMICOLON {
   capslock+shift: '\u00fc'
 }
 
-key EQUALS {
+key RIGHT_BRACKET {
   label: '\u002b'
   base: '\u002b'
   shift: '\u002a'
@@ -316,7 +316,7 @@ key L {
   capslock+shift: 'l'
 }
 
-key GRAVE {
+key SEMICOLON {
   label: '\u00f6'
   base: '\u00f6'
   shift: '\u00d6'
@@ -332,18 +332,23 @@ key APOSTROPHE {
   capslock+shift: '\u00e4'
 }
 
-key BACKSLASH {
-  label: '\u0302'
-  base: '\u0302'
+key GRAVE {
+  label: '\u030c'
+  base: '\u030c'
   shift: '\u00b0'
   capslock+shift: '\u00b0'
 }
 
-key SLASH {
-  label: '\u0023'
-  base: '\u0023'
-  shift: '\u0027'
-  capslock+shift: '\u0027'
+key BACKSLASH {
+  label: '\u0142'
+  base: '\u0142'
+  shift: '\u0141'
+  capslock: '\u0141'
+  capslock+shift: '\u0142'
+  ralt: '#'
+  ralt+shift: '\''
+  ralt+capslock: '\''
+  ralt+capslock+shift: '#'
 }
 
 key Y {
@@ -419,7 +424,7 @@ key PERIOD {
   capslock+shift: '\u003a'
 }
 
-key MINUS {
+key SLASH {
   label: '\u002d'
   base: '\u002d'
   shift: '\u005f'
@@ -447,4 +452,3 @@ key NUMPAD_COMMA {
   shift: '\u002c'
   capslock+shift: '\u002c'
 }
-
