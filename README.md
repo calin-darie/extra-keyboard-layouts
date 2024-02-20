@@ -36,6 +36,7 @@ Tested layouts:
 * Portuguese (Magic keyboard)
 * Romanian Programmers
 * Romanian Standard
+* Sorbian Standard
 * Swedish Dvorak (Svorak A1)
 * Thai Kedmanee +/- Writer, +/- Shiftlock
 * Thai Manoonchai +/- Writer +/- Shiftlock
@@ -130,7 +131,6 @@ Experimental - not tested:
 * Slovak (QWERTY)
 * Slovak (QWERTZ)
 * Sorbian Extended
-* Sorbian Standard
 * Spanish variation
 * Swedish with Sami
 * Syriac
