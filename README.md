@@ -85,6 +85,7 @@ Experimental - not tested:
 * Kyrgyz Cyrillic
 * Kurdish Hejar https://klpp.github.io/hejar.html [<sup>1</sup>](#note1)
 * Kurdish KRG http://unicode.ekrg.org/download/UnifiedKeyboardProject_enGB.pdf [<sup>1</sup>](#note1)
+* Kurdish Latini
 * Lao [<sup>1</sup>](#note1)
 * Latin American
 * Latvian (QWERTY)

@@ -65,6 +65,7 @@
     <keyboard-layout android:label="@string/keyboard_layout_korean" android:name="keyboard_layout_korean" android:keyboardLayout="@raw/keyboard_layout_korean"/>
     <keyboard-layout android:label="@string/keyboard_layout_kurdish_krg" android:name="keyboard_layout_kurdish_krg" android:keyboardLayout="@raw/keyboard_layout_kurdish_krg"/>
     <keyboard-layout android:label="@string/keyboard_layout_kurdish_sorani_hejar" android:name="keyboard_layout_kurdish_sorani_hejar" android:keyboardLayout="@raw/keyboard_layout_kurdish_sorani_hejar"/>
+    <keyboard-layout android:label="@string/keyboard_layout_kurdish_latini" android:name="keyboard_layout_kurdish_latini" android:keyboardLayout="@raw/keyboard_layout_kurdish_latini"/>
     <keyboard-layout android:label="@string/keyboard_layout_kyrgyz_cyrillic" android:name="keyboard_layout_kyrgyz_cyrillic" android:keyboardLayout="@raw/keyboard_layout_kyrgyz_cyrillic"/>
     <keyboard-layout android:label="@string/keyboard_layout_lao" android:name="keyboard_layout_lao" android:keyboardLayout="@raw/keyboard_layout_lao"/>
     <keyboard-layout android:label="@string/keyboard_layout_latin_american" android:name="keyboard_layout_latin_american" android:keyboardLayout="@raw/keyboard_layout_latin_american"/>
