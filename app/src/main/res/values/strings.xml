@@ -35,6 +35,7 @@
 	<string name="keyboard_layout_english_india">English (India)</string>
 	<string name="keyboard_layout_eu_eurkey">EU (EurKEY)</string>
 	<string name="keyboard_layout_faeroese">Faeroese</string>
+	<string name="keyboard_layout_french_azerty">French AZERTY layout</string>
 	<string name="keyboard_layout_finnish_with_sami">Finnish with Sami</string>
 	<string name="keyboard_layout_georgian_ergonomic">Georgian (Ergonomic)</string>
 	<string name="keyboard_layout_georgian_mes">Georgian (MES)</string>
